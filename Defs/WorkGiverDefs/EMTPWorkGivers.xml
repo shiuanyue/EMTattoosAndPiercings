@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<!-- ============= Fabricating ============= -->
+	<WorkGiverDef Name="EMTPWorkGiver" Abstract="True">
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Crafting</workType>
+		<priorityInType>90</priorityInType>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	
+
+	<WorkGiverDef ParentName="EMTPWorkGiver">
+		<defName>DoBillsPigmentPit</defName>
+		<label>mix pigments</label>
+		<fixedBillGiverDefs>
+			<li>PigmentPit</li>
+		</fixedBillGiverDefs>
+		<verb>mix</verb>
+		<gerund>blend</gerund>
+	</WorkGiverDef>
+
+
+</Defs>

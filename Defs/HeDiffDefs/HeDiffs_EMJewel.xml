@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<!-- Added body parts -->
+
+	<HediffDef Name="JewelBase_EM" Abstract="True">
+		<hediffClass>Hediff_Implant</hediffClass>
+		<defaultLabelColor>(0.3, 0.4, 0.8)</defaultLabelColor>
+		<isBad>false</isBad>
+	</HediffDef>
+
+
+
+<!-- earrings -->
+
+
+	<HediffDef ParentName="JewelBase_EM">
+		<defName>EMSilEarStat</defName>
+		<label>Silver hoop earring</label>
+		<description>Silver hoop earring</description>
+	
+		<spawnThingOnRemoved>I_EMSilEar</spawnThingOnRemoved>
+	
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+	
+		<statOffsets>
+		<SocialImpact>0.02</SocialImpact>
+		<ImmunityGainSpeed>+0.02</ImmunityGainSpeed>
+		</statOffsets>
+
+			</li>
+	
+		</stages>
+	</HediffDef>
+
+
+
+	<HediffDef ParentName="JewelBase_EM">
+		<defName>EMGolEarStat</defName>
+		<label>Gold hoop earring</label>
+		<description>Gold hoop earring</description>
+	
+		<spawnThingOnRemoved>I_EMGolEar</spawnThingOnRemoved>
+	
+		<addedPartProps>
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+	
+		<statOffsets>
+		<SocialImpact>0.04</SocialImpact>
+		</statOffsets>
+
+			</li>
+	
+		</stages>
+	</HediffDef>
+
+
+
+<!-- nose rings -->
+
+
+	<HediffDef ParentName="JewelBase_EM">
+		<defName>EMSilNoseStat</defName>
+		<label>Silver nose ring</label>
+		<description>Silver nose ring</description>
+	
+		<spawnThingOnRemoved>I_EMSilNose</spawnThingOnRemoved>
+	
+		<addedPartProps>
+	
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+	
+		<statOffsets>
+		<SocialImpact>0.03</SocialImpact>
+		<ImmunityGainSpeed>+0.03</ImmunityGainSpeed>
+		</statOffsets>
+
+			</li>
+	
+		</stages>
+	</HediffDef>
+
+
+
+	<HediffDef ParentName="JewelBase_EM">
+		<defName>EMGolNoseStat</defName>
+		<label>Gold nose ring</label>
+		<description>Gold nose ring</description>
+	
+		<spawnThingOnRemoved>I_EMGolNose</spawnThingOnRemoved>
+	
+		<addedPartProps>	
+			<partEfficiency>1.2</partEfficiency>
+		</addedPartProps>
+		<stages>
+			<li>
+	
+		<statOffsets>
+		<SocialImpact>0.04</SocialImpact>
+		</statOffsets>
+
+			</li>
+	
+		</stages>
+	</HediffDef>
+
+
+
+</Defs>

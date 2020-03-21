@@ -1,0 +1,581 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+
+<Defs>
+
+	
+
+<RecipeDef Abstract="True" Name="EMPigments">
+		
+	<effectWorking>Cook</effectWorking>
+		
+	<soundWorking>Recipe_CookMeal</soundWorking>
+		
+	<workSpeedStat>CookSpeed</workSpeedStat>
+		
+	<workSkill>Crafting</workSkill>
+		
+	<workSkillLearnFactor>3</workSkillLearnFactor>
+			
+	<recipeUsers>
+			
+		<li>PigmentPit</li>
+		
+	</recipeUsers>
+	
+
+</RecipeDef>
+
+
+
+
+
+
+							<!-- base pigments -->
+
+
+<RecipeDef ParentName="EMPigments">
+		
+<defName>MakeEMYellow</defName>
+		
+<label>Make pollen pigment</label>
+		
+<description>Ancient techniques blend the special properties of psychoid leaves with dormant mechanites from the planet to create an ink that will increase speed when tattooed on a colonist.</description>
+		
+		
+<jobString>Blending ingredients.</jobString>
+		
+<workAmount>600</workAmount>
+		
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>PsychoidLeaves</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>7</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+<products>
+			
+		<EMPigmentYellow>1</EMPigmentYellow>		
+</products>
+
+<researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>PsychoidLeaves</li>
+	
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+</RecipeDef>
+
+
+
+
+
+<RecipeDef ParentName="EMPigments">
+		
+<defName>MakeEMGreen</defName>
+		
+<label>Make forest pigment</label>
+		
+<description>Ancient techniques blend the special properties of herbal medicine with dormant mechanites from the planet to create an ink that will increase manipulation when tattooed on a colonist.</description>
+		
+		
+<jobString>Blending ingredients.</jobString>
+		
+<workAmount>600</workAmount>
+		
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>MedicineHerbal</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+<products>
+			
+		<EMPigmentGreen>1</EMPigmentGreen>		
+</products>
+
+<researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>MedicineHerbal</li>
+	
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+</RecipeDef>
+
+
+
+
+
+<RecipeDef ParentName="EMPigments">
+		
+<defName>MakeEMRed</defName>
+		
+<label>Make blood pigment</label>
+		
+<description>Ancient techniques blend the special properties of devilstrand mushroom with dormant mechanites from the planet to create an ink that will increase consciousness when tattooed on a colonist.</description>
+		
+		
+<jobString>Blending ingredients.</jobString>
+		
+<workAmount>600</workAmount>
+		
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>DevilstrandCloth</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>4</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+<products>
+			
+		<EMPigmentRed>1</EMPigmentRed>		
+</products>
+
+<researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>DevilstrandCloth</li>
+	
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+</RecipeDef>
+
+
+	
+
+
+<RecipeDef ParentName="EMPigments">
+		
+<defName>MakeEMBlue</defName>
+		
+<label>Make sky pigment</label>
+		
+<description>Ancient techniques blend the special properties of smokeleaf plants with dormant mechanites from the planet to create an ink that will increase pain threshold when tattooed on a colonist.</description>
+		
+		
+<jobString>Blending ingredients.</jobString>
+		
+<workAmount>600</workAmount>
+		
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>SmokeleafLeaves</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>7</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+<products>
+			
+		<EMPigmentBlue>1</EMPigmentBlue>		
+</products>
+ 
+<researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>SmokeleafLeaves</li>
+	
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+</RecipeDef>
+
+
+
+
+
+							<!-- harder better faster stronger pigments -->
+
+
+<RecipeDef ParentName="EMPigments">
+		
+<defName>MakeEMTurquoise</defName>
+		
+<label>Make sea pigment</label>
+		
+<description>An advanced technique that processes base pigments into advanced colours, to create an ink that will increase mental break threshold when tattooed on a colonist.</description>
+		
+		
+<jobString>Mixing pigments.</jobString>
+		
+<workAmount>600</workAmount>
+		
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EMPigmentGreen</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+	
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EMPigmentBlue</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+<products>
+			
+		<EMPigmentTurquoise>2</EMPigmentTurquoise>		
+</products>
+
+<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>EMPigmentGreen</li>
+	
+				<li>EMPigmentBlue</li>
+
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+</RecipeDef>
+
+
+
+
+
+<RecipeDef ParentName="EMPigments">
+		
+<defName>MakeEMLime</defName>
+		
+<label>Make grass pigment</label>
+		
+<description>An advanced technique that processes base pigments into advanced colours, to create an ink that will increase learning speed when tattooed on a colonist.</description>
+		
+		
+<jobString>Mixing pigments.</jobString>
+		
+<workAmount>600</workAmount>
+		
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EMPigmentYellow</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+	
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EMPigmentGreen</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+<products>
+			
+		<EMPigmentLime>2</EMPigmentLime>		
+</products>
+
+<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>EMPigmentGreen</li>
+	
+				<li>EMPigmentYellow</li>
+
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+</RecipeDef>
+
+
+
+
+
+
+<RecipeDef ParentName="EMPigments">
+		
+<defName>MakeEMPurple</defName>
+		
+<label>Make royal pigment</label>
+		
+<description>An advanced technique that processes base pigments into advanced colours, to create an ink that will increase melee speed when tattooed on a colonist.</description>
+		
+		
+<jobString>Mixing pigments.</jobString>
+		
+<workAmount>600</workAmount>
+		
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EMPigmentRed</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+	
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EMPigmentBlue</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+<products>
+			
+		<EMPigmentPurple>2</EMPigmentPurple>		
+</products>
+
+<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>EMPigmentRed</li>
+	
+				<li>EMPigmentBlue</li>
+
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+</RecipeDef>
+
+
+
+
+
+<RecipeDef ParentName="EMPigments">
+		
+<defName>MakeEMOrange</defName>
+		
+<label>Make flame pigment</label>
+		
+<description>An advanced technique that processes base pigments into advanced colours, to create an ink that will increase shooting accuracy when tattooed on a colonist.</description>
+		
+		
+<jobString>Mixing pigments.</jobString>
+		
+<workAmount>600</workAmount>
+		
+
+<ingredients>
+			
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EMPigmentRed</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+	
+		<li>
+				
+			<filter>	
+				<thingDefs>
+				
+					<li>EMPigmentYellow</li>
+	
+				</thingDefs>
+			
+			</filter>
+	
+			<count>1</count>
+			
+		</li>
+			
+</ingredients>
+		
+
+
+<products>
+			
+		<EMPigmentOrange>2</EMPigmentOrange>		
+</products>
+
+<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+
+<fixedIngredientFilter>
+			
+			<thingDefs>
+				
+				<li>EMPigmentRed</li>
+	
+				<li>EMPigmentYellow</li>
+
+			</thingDefs>
+		
+							
+</fixedIngredientFilter>
+	
+</RecipeDef>
+
+
+
+
+</Defs>
