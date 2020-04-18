@@ -1,2380 +1,990 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	
-
-<RecipeDef Abstract="True" Name="EMSurgery">
-		
-	<effectWorking>Surgery</effectWorking>
-		
-	<soundWorking>Recipe_Surgery</soundWorking>
-		
-	<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-		
-	<workSkill>Medicine</workSkill>
-		
-	<workSkillLearnFactor>16</workSkillLearnFactor>
-		
-	<surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
-	<recipeUsers>
-			
-		<li>Human</li>
-		
-	</recipeUsers>
-	
-
-</RecipeDef>
-
-
-
-
-	<!-- cobra / speed tattoo -->
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMSpeedSma</defName>
-		
-<label>Tattoo cobra design</label>
-		
-<description>Tattoo cobra design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing cobra design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMSpeedSma</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMSpeedSma</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Foot</li>
-			
-			<li>Foot</li>
-	
-			<li>Hand</li>
-			
-			<li>Hand</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMSpeedSma</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMSpeedMed</defName>
-		
-<label>Tattoo cobra design</label>
-		
-<description>Tattoo cobra design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing snake design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMSpeedMed</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMSpeedMed</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Leg</li>
-			
-			<li>Leg</li>
-	
-			<li>Arm</li>
-			
-			<li>Arm</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMSpeedMed</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMSpeedBig</defName>
-		
-<label>Tattoo cobra design</label>
-		
-<description>Tattoo cobra design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing snake design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMSpeedBig</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMSpeedBig</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Spine</li>
-
-			<li>Sternum</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMSpeedBig</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-	<!-- cobra / speed tattoo -->
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMPSma</defName>
-		
-<label>Tattoo thrumbo design</label>
-		
-<description>Tattoo thrumbo design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing thrumbo design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMPainSma</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMPainSma</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Foot</li>
-			
-			<li>Foot</li>
-	
-			<li>Hand</li>
-			
-			<li>Hand</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMPainSma</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMPMed</defName>
-		
-<label>Tattoo thrumbo design</label>
-		
-<description>Tattoo thrumbo design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing thrumbo design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMPainMed</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMPainMed</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Leg</li>
-			
-			<li>Leg</li>
-	
-			<li>Arm</li>
-			
-			<li>Arm</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMPainMed</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMPBig</defName>
-		
-<label>Tattoo thrumbo design</label>
-		
-<description>Tattoo thrumbo design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing thrumbo design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMPainBig</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMPainBig</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Spine</li>
-
-			<li>Sternum</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMPainBig</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-
-
-	
-
-
-							<!-- monkey / manipulation tattoo -->
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMManipSma</defName>
-		
-<label>Tattoo monkey design</label>
-		
-<description>Tattoo monkey design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing monkey design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMManipSma</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMManipSma</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Foot</li>
-			
-			<li>Foot</li>
-	
-			<li>Hand</li>
-			
-			<li>Hand</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMManipSma</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMManipMed</defName>
-		
-<label>Tattoo monkey design</label>
-		
-<description>Tattoo monkey design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing monkey design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMManipMed</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMManipMed</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Leg</li>
-			
-			<li>Leg</li>
-	
-			<li>Arm</li>
-			
-			<li>Arm</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMManipMed</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMPainBig</defName>
-		
-<label>Tattoo monkey design</label>
-		
-<description>Tattoo monkey design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing monkey design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMManipBig</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMManipBig</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Spine</li>
-
-			<li>Sternum</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMManipBig</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-							<!-- mechanoid / consciousness tattoo -->
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMPainSma</defName>
-		
-<label>Tattoo mechanoid design</label>
-		
-<description>Tattoo mechanoid design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing mechanoid design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMConSma</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMConSma</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Foot</li>
-			
-			<li>Foot</li>
-	
-			<li>Hand</li>
-			
-			<li>Hand</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMConSma</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMPainMed</defName>
-		
-<label>Tattoo mechanoid design</label>
-		
-<description>Tattoo mechanoid design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing mechanoid design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMConMed</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMConMed</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Leg</li>
-			
-			<li>Leg</li>
-	
-			<li>Arm</li>
-			
-			<li>Arm</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMConMed</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMConBig</defName>
-		
-<label>Tattoo mechanoid design</label>
-		
-<description>Tattoo mechanoid design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing mechanoid design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMConBig</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMConBig</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Spine</li>
-
-			<li>Sternum</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMConBig</addsHediff>
-
-</RecipeDef>
-
-		
-
-
-
-
-							<!-- muffalo / mental break tattoo -->
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMBreakSma</defName>
-		
-<label>Tattoo muffalo design</label>
-		
-<description>Tattoo muffalo design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing muffalo design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMBreakSma</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMBreakSma</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Foot</li>
-			
-			<li>Foot</li>
-	
-			<li>Hand</li>
-			
-			<li>Hand</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMMenSma</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMBreakMed</defName>
-		
-<label>Tattoo muffalo design</label>
-		
-<description>Tattoo muffalo design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing muffalo design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMBreakMed</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMBreakMed</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Leg</li>
-			
-			<li>Leg</li>
-	
-			<li>Arm</li>
-			
-			<li>Arm</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMMenMed</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMBreakBig</defName>
-		
-<label>Tattoo muffalo design</label>
-		
-<description>Tattoo muffalo design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing muffalo design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMBreakBig</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMBreakBig</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Spine</li>
-
-			<li>Sternum</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMMenBig</addsHediff>
-
-</RecipeDef>
-
-	
-
-
-							<!-- insectoid / blood pumping tattoo -->
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMBloodSma</defName>
-		
-<label>Tattoo insectoid design</label>
-		
-<description>Tattoo insectoid design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing insectoid design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMBloodSma</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMBloodSma</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Foot</li>
-			
-			<li>Foot</li>
-	
-			<li>Hand</li>
-			
-			<li>Hand</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMBldSma</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMBloodMed</defName>
-		
-<label>Tattoo insectoid design</label>
-		
-<description>Tattoo insectoid design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing insectoid design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMBloodMed</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMBloodMed</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Leg</li>
-			
-			<li>Leg</li>
-	
-			<li>Arm</li>
-			
-			<li>Arm</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMBldMed</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMBloodBig</defName>
-		
-<label>Tattoo insectoid design</label>
-		
-<description>Tattoo insectoid design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing insectoid design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMBloodBig</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMBloodBig</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Spine</li>
-
-			<li>Sternum</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMBldBig</addsHediff>
-
-</RecipeDef>
-
-	
-
-
-							<!-- rose / melee tattoo -->
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMPMeleeSma</defName>
-		
-<label>Tattoo rose design</label>
-		
-<description>Tattoo rose design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing rose design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMMeleeSma</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMMeleeSma</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Foot</li>
-			
-			<li>Foot</li>
-	
-			<li>Hand</li>
-			
-			<li>Hand</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMMelSma</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMMeleeMed</defName>
-		
-<label>Tattoo rose design</label>
-		
-<description>Tattoo rose design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing rose design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMMeleeMed</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMMeleeMed</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Leg</li>
-			
-			<li>Leg</li>
-	
-			<li>Arm</li>
-			
-			<li>Arm</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMMelMed</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMMeleeBig</defName>
-		
-<label>Tattoo rose design</label>
-		
-<description>Tattoo rose design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing rose design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMMeleeBig</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMMeleeBig</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Spine</li>
-
-			<li>Sternum</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMMelBig</addsHediff>
-
-</RecipeDef>
-
-	
-
-
-							<!-- sun / shooting tattoo -->
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMShootSma</defName>
-		
-<label>Tattoo sun design</label>
-		
-<description>Tattoo sun design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing sun design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMShootSma</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMShootSma</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Foot</li>
-			
-			<li>Foot</li>
-	
-			<li>Hand</li>
-			
-			<li>Hand</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMShtSma</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMShootMed</defName>
-		
-<label>Tattoo sun design</label>
-		
-<description>Tattoo sun design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing sun design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMShootMed</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMShootMed</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Leg</li>
-			
-			<li>Leg</li>
-	
-			<li>Arm</li>
-			
-			<li>Arm</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMShtMed</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-<RecipeDef ParentName="EMSurgery">
-		
-
-<defName>InstallEMShootBig</defName>
-		
-<label>Tattoo sun design</label>
-		
-<description>Tattoo sun design</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Tattooing sun design</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMShootBig</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMShootBig</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Spine</li>
-
-			<li>Sternum</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMShtBig</addsHediff>
-
-</RecipeDef>
-
-	
-
-
-
+  <RecipeDef Abstract="True" Name="EMSurgery">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>16</workSkillLearnFactor>
+    <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- cobra / speed tattoo -->
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMSpeedSma</defName>
+    <label>Tattoo cobra design</label>
+    <description>Tattoo cobra design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing cobra design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMSpeedSma</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMSpeedSma</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+      <li>Foot</li>
+      <li>Hand</li>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMSpeedSma</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMSpeedMed</defName>
+    <label>Tattoo cobra design</label>
+    <description>Tattoo cobra design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing snake design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMSpeedMed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMSpeedMed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+      <li>Leg</li>
+      <li>Arm</li>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMSpeedMed</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMSpeedBig</defName>
+    <label>Tattoo cobra design</label>
+    <description>Tattoo cobra design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing snake design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMSpeedBig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMSpeedBig</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMSpeedBig</addsHediff>
+  </RecipeDef>
+  <!-- cobra / speed tattoo -->
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMPSma</defName>
+    <label>Tattoo thrumbo design</label>
+    <description>Tattoo thrumbo design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing thrumbo design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMPainSma</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMPainSma</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+      <li>Foot</li>
+      <li>Hand</li>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMPainSma</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMPMed</defName>
+    <label>Tattoo thrumbo design</label>
+    <description>Tattoo thrumbo design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing thrumbo design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMPainMed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMPainMed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+      <li>Leg</li>
+      <li>Arm</li>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMPainMed</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMPBig</defName>
+    <label>Tattoo thrumbo design</label>
+    <description>Tattoo thrumbo design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing thrumbo design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMPainBig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMPainBig</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMPainBig</addsHediff>
+  </RecipeDef>
+  <!-- monkey / manipulation tattoo -->
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMManipSma</defName>
+    <label>Tattoo monkey design</label>
+    <description>Tattoo monkey design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing monkey design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMManipSma</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMManipSma</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+      <li>Foot</li>
+      <li>Hand</li>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMManipSma</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMManipMed</defName>
+    <label>Tattoo monkey design</label>
+    <description>Tattoo monkey design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing monkey design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMManipMed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMManipMed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+      <li>Leg</li>
+      <li>Arm</li>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMManipMed</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMPainBig</defName>
+    <label>Tattoo monkey design</label>
+    <description>Tattoo monkey design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing monkey design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMManipBig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMManipBig</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMManipBig</addsHediff>
+  </RecipeDef>
+  <!-- mechanoid / consciousness tattoo -->
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMPainSma</defName>
+    <label>Tattoo mechanoid design</label>
+    <description>Tattoo mechanoid design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing mechanoid design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMConSma</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMConSma</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+      <li>Foot</li>
+      <li>Hand</li>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMConSma</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMPainMed</defName>
+    <label>Tattoo mechanoid design</label>
+    <description>Tattoo mechanoid design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing mechanoid design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMConMed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMConMed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+      <li>Leg</li>
+      <li>Arm</li>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMConMed</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMConBig</defName>
+    <label>Tattoo mechanoid design</label>
+    <description>Tattoo mechanoid design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing mechanoid design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMConBig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMConBig</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMConBig</addsHediff>
+  </RecipeDef>
+  <!-- muffalo / mental break tattoo -->
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMBreakSma</defName>
+    <label>Tattoo muffalo design</label>
+    <description>Tattoo muffalo design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing muffalo design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMBreakSma</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMBreakSma</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+      <li>Foot</li>
+      <li>Hand</li>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMMenSma</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMBreakMed</defName>
+    <label>Tattoo muffalo design</label>
+    <description>Tattoo muffalo design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing muffalo design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMBreakMed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMBreakMed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+      <li>Leg</li>
+      <li>Arm</li>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMMenMed</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMBreakBig</defName>
+    <label>Tattoo muffalo design</label>
+    <description>Tattoo muffalo design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing muffalo design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMBreakBig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMBreakBig</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMMenBig</addsHediff>
+  </RecipeDef>
+  <!-- insectoid / blood pumping tattoo -->
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMBloodSma</defName>
+    <label>Tattoo insectoid design</label>
+    <description>Tattoo insectoid design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing insectoid design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMBloodSma</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMBloodSma</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+      <li>Foot</li>
+      <li>Hand</li>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMBldSma</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMBloodMed</defName>
+    <label>Tattoo insectoid design</label>
+    <description>Tattoo insectoid design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing insectoid design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMBloodMed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMBloodMed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+      <li>Leg</li>
+      <li>Arm</li>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMBldMed</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMBloodBig</defName>
+    <label>Tattoo insectoid design</label>
+    <description>Tattoo insectoid design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing insectoid design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMBloodBig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMBloodBig</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMBldBig</addsHediff>
+  </RecipeDef>
+  <!-- rose / melee tattoo -->
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMPMeleeSma</defName>
+    <label>Tattoo rose design</label>
+    <description>Tattoo rose design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing rose design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMMeleeSma</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMMeleeSma</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+      <li>Foot</li>
+      <li>Hand</li>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMMelSma</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMMeleeMed</defName>
+    <label>Tattoo rose design</label>
+    <description>Tattoo rose design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing rose design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMMeleeMed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMMeleeMed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+      <li>Leg</li>
+      <li>Arm</li>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMMelMed</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMMeleeBig</defName>
+    <label>Tattoo rose design</label>
+    <description>Tattoo rose design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing rose design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMMeleeBig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMMeleeBig</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMMelBig</addsHediff>
+  </RecipeDef>
+  <!-- sun / shooting tattoo -->
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMShootSma</defName>
+    <label>Tattoo sun design</label>
+    <description>Tattoo sun design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing sun design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMShootSma</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMShootSma</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Foot</li>
+      <li>Foot</li>
+      <li>Hand</li>
+      <li>Hand</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMShtSma</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMShootMed</defName>
+    <label>Tattoo sun design</label>
+    <description>Tattoo sun design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing sun design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMShootMed</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMShootMed</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Leg</li>
+      <li>Leg</li>
+      <li>Arm</li>
+      <li>Arm</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMShtMed</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMSurgery">
+    <defName>InstallEMShootBig</defName>
+    <label>Tattoo sun design</label>
+    <description>Tattoo sun design</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Tattooing sun design</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMShootBig</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMShootBig</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Spine</li>
+      <li>Sternum</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMShtBig</addsHediff>
+  </RecipeDef>
 </Defs>
-
-	
-
-
-

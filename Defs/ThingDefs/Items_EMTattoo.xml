@@ -1,959 +1,402 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
-
-<!-- tattoos -->
-
-	
-
-<ThingDef Name="BodyPartBase_EM" Abstract="True">
-		
-	<label>body part</label>
-		
-	<thingClass>ThingWithComps</thingClass>
-	
-	
-	<category>Item</category>
-		
-	<useHitPoints>true</useHitPoints>
-		
-	<selectable>true</selectable>
-		
-
-	<statBases>
-			
-		<MaxHitPoints>50</MaxHitPoints>
-			
-		<Flammability>1.0</Flammability>
-		
-		<Mass>0.3</Mass>
-		
-	</statBases>
-		
-
-	<altitudeLayer>Item</altitudeLayer>
-		
-	<tickerType>Never</tickerType>
-		
-
-	<alwaysHaulable>true</alwaysHaulable>
-		
-		
-
-	<tradeTags>
-			
-		<li>BodyPartOrImplant</li>
-		
-	</tradeTags>
-		
-
-	<comps>
-			
-		<li Class="CompProperties_Forbiddable"/>
-		
-	</comps>
-		
-
-	<pathCost>10</pathCost>
-	
-	<techHediffsTags>
+  <!-- tattoos -->
+  <ThingDef Name="BodyPartBase_EM" Abstract="True">
+    <label>body part</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>0.3</Mass>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>10</pathCost>
+    <techHediffsTags>
       <li>EM_Tattoo</li>
     </techHediffsTags>
-
-</ThingDef>
-
-
-
-
-<ThingDef ParentName="BodyPartBase_EM" Name="BodyPartArtificialBase_EM" Abstract="True">
-
-	<thingCategories>
-			
-		<li>BodyPartsBionic</li>
-		
-	</thingCategories>
-	
-</ThingDef>
-
-	
-
-
-
-									<!-- cobra / speed tattoos -->
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMSpeedSma</defName>
-		
-	<label>Tattoo kit (cobra - small)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a cobra, there is enough here for a small tattoo on a hand or foot. This design increases speed a little. May make eating a time-consuming process.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooYellow</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMSpeedMed</defName>
-		
-	<label>Tattoo kit (cobra - medium)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a cobra, there is enough here for a sizeable tattoo on an arm or leg. This design increases speed by a modest amount. May make eating a time-consuming process.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooYellow</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMSpeedBig</defName>
-		
-	<label>Tattoo kit (cobra - large)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a cobra, there is enough here for a large tattoo on someones chest or back. This design increases speed by a sizeable amount. May make eating a time-consuming process.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooYellow</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-	
-
-
-
-									<!-- thrumbo / pain tattoos -->
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMPainSma</defName>
-		
-	<label>Tattoo kit (thrumbo - small)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a thrumbo, there is enough here for a small tattoo on a hand or foot. This design decreases pain a little. Will make you a little more susceptible to the elements.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooBlue</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMPainMed</defName>
-		
-	<label>Tattoo kit (thrumbo - medium)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a thrumbo, there is enough here for a sizeable tattoo on an arm or leg. This design decreases pain by a modest amount. Will make you a little more susceptible to the elements.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooBlue</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMPainBig</defName>
-		
-	<label>Tattoo kit (thrumbo - large)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a thrumbo, there is enough here for a large tattoo on someones chest or back. This design decreases pain by a sizeable amount. Will make you a little more susceptible to the elements.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooBlue</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-	
-
-
-
-<!-- monkey / manipulation tattoos -->
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMManipSma</defName>
-		
-	<label>Tattoo kit (monkey - small)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a monkey, there is enough here for a small tattoo on a hand or foot. This design increases manipulation a little. Psychic phenomena are a little more effective too.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooGreen</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMManipMed</defName>
-		
-	<label>Tattoo kit (monkey - medium)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a monkey, there is enough here for a sizeable tattoo on an arm or leg. This design increases manipulation by a modest amount. Psychic phenomena are a little more effective too.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooGreen</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMManipBig</defName>
-		
-	<label>Tattoo kit (monkey - large)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a monkey, there is enough here for a large tattoo on someones chest or back. This design increases manipulation by a sizeable amount. Psychic phenomena are a little more effective too.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooGreen</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-	
-
-
-
-
-<!-- mechanoid / consciousness tattoos -->
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMConSma</defName>
-		
-	<label>Tattoo kit (mechanoid - small)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a mechanoid, there is enough here for a small tattoo on a hand or foot. This design increases consciousness a little, it is also scary for others to look at.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooRed</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMConMed</defName>
-		
-	<label>Tattoo kit (mechanoid - medium)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a mechanoid, there is enough here for a sizeable tattoo on an arm or leg. This design increases consciousness by a modest amount, it is also scary for others to look at.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooRed</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMConBig</defName>
-		
-	<label>Tattoo kit (mechanoid - large)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a mechanoid, there is enough here for a large tattoo on someones chest or back. This design increases consciousness by a sizeable amount, it is also scary for others to look at.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooRed</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-
-
-								<!-- muffalo / mental break tattoos -->
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMBreakSma</defName>
-		
-	<label>Tattoo kit (muffalo - small)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a cobra, there is enough here for a small tattoo on a hand or foot. This design increases mental break threshold a little. Makes movement a little slower.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooTurquoise</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMBreakMed</defName>
-		
-	<label>Tattoo kit (muffalo - medium)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a muffalo, there is enough here for a sizeable tattoo on an arm or leg. This design increases mental break threshold  by a modest amount. Makes movement a little slower.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooTurquoise</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMBreakBig</defName>
-		
-	<label>Tattoo kit (muffalo - large)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a muffalo, there is enough here for a large tattoo on someones chest or back. This design increases mental break threshold by a sizeable amount. Makes movement a little slower.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooTurquoise</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-	
-
-
-
-
-								<!-- insectoid / mental break tattoos -->
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMBloodSma</defName>
-		
-	<label>Tattoo kit (insectoid - small)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of an insectoid, there is enough here for a small tattoo on a hand or foot. This design increases blood pumping a little. It will also reduce learning speed a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooLime</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMBloodMed</defName>
-		
-	<label>Tattoo kit (insectoid - medium)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of an insectoid, there is enough here for a sizeable tattoo on an arm or leg. This design increases blood pumping by a modest amount. It will also reduce learning speed a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooLime</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMBloodBig</defName>
-		
-	<label>Tattoo kit (insectoid - large)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of an insectoid, there is enough here for a large tattoo on someones chest or back. This design increases blood pumping by a sizeable amount. It will also reduce learning speed a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooLime</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-
-
-
-								<!-- rose / melee tattoos -->
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMMeleeSma</defName>
-		
-	<label>Tattoo kit (rose - small)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a rose, there is enough here for a small tattoo on a hand or foot. This design increases melee ability a little. It will also reduce pain threshold a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooPurple</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMMeleeMed</defName>
-		
-	<label>Tattoo kit (rose - medium)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a rose, there is enough here for a sizeable tattoo on an arm or leg. This design increases melee ability by a modest amount. It will also reduce pain threshold a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooPurple</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMMeleeBig</defName>
-		
-	<label>Tattoo kit (rose - large)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a rose, there is enough here for a large tattoo on someones chest or back. This design increases melee ability by a sizeable amount. It will also reduce pain threshold a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooPurple</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-
-
-								<!-- sun / shooting tattoos -->
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMShootSma</defName>
-		
-	<label>Tattoo kit (sun - small)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a sun, there is enough here for a small tattoo on a hand or foot. This design increases shooting ability a little. It will also reduce work speed a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooOrange</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMShootMed</defName>
-		
-	<label>Tattoo kit (sun - medium)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a sun, there is enough here for a sizeable tattoo on an arm or leg. This design increases shooting ability by a modest amount. It will also reduce work speed a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooOrange</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="BodyPartArtificialBase_EM">
-		
-	<defName>I_EMShootBig</defName>
-		
-	<label>Tattoo kit (sun - large)</label>
-		
-	<description>A set of carefully prepared inks and templates used to tattoo the design of a sun, there is enough here for a large tattoo on someones chest or back. This design increases shooting ability by a sizeable amount. It will also reduce work speed a little.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/TattooOrange</texPath>
-			
-		<graphicClass>Graphic_Single</graphicClass>
-		
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	<techHediffsTags>
-			
-		<li>EMLimb</li>
-		
-	</techHediffsTags>
-	
-</ThingDef>
-
-
-	
-
+  </ThingDef>
+  <ThingDef ParentName="BodyPartBase_EM" Name="BodyPartArtificialBase_EM" Abstract="True">
+    <thingCategories>
+      <li>BodyPartsBionic</li>
+    </thingCategories>
+  </ThingDef>
+  <!-- cobra / speed tattoos -->
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMSpeedSma</defName>
+    <label>Tattoo kit (cobra - small)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a cobra, there is enough here for a small tattoo on a hand or foot. This design increases speed a little. May make eating a time-consuming process.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooYellow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMSpeedMed</defName>
+    <label>Tattoo kit (cobra - medium)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a cobra, there is enough here for a sizeable tattoo on an arm or leg. This design increases speed by a modest amount. May make eating a time-consuming process.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooYellow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMSpeedBig</defName>
+    <label>Tattoo kit (cobra - large)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a cobra, there is enough here for a large tattoo on someones chest or back. This design increases speed by a sizeable amount. May make eating a time-consuming process.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooYellow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- thrumbo / pain tattoos -->
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMPainSma</defName>
+    <label>Tattoo kit (thrumbo - small)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a thrumbo, there is enough here for a small tattoo on a hand or foot. This design decreases pain a little. Will make you a little more susceptible to the elements.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooBlue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMPainMed</defName>
+    <label>Tattoo kit (thrumbo - medium)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a thrumbo, there is enough here for a sizeable tattoo on an arm or leg. This design decreases pain by a modest amount. Will make you a little more susceptible to the elements.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooBlue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMPainBig</defName>
+    <label>Tattoo kit (thrumbo - large)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a thrumbo, there is enough here for a large tattoo on someones chest or back. This design decreases pain by a sizeable amount. Will make you a little more susceptible to the elements.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooBlue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- monkey / manipulation tattoos -->
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMManipSma</defName>
+    <label>Tattoo kit (monkey - small)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a monkey, there is enough here for a small tattoo on a hand or foot. This design increases manipulation a little. Psychic phenomena are a little more effective too.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooGreen</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMManipMed</defName>
+    <label>Tattoo kit (monkey - medium)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a monkey, there is enough here for a sizeable tattoo on an arm or leg. This design increases manipulation by a modest amount. Psychic phenomena are a little more effective too.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooGreen</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMManipBig</defName>
+    <label>Tattoo kit (monkey - large)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a monkey, there is enough here for a large tattoo on someones chest or back. This design increases manipulation by a sizeable amount. Psychic phenomena are a little more effective too.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooGreen</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- mechanoid / consciousness tattoos -->
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMConSma</defName>
+    <label>Tattoo kit (mechanoid - small)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a mechanoid, there is enough here for a small tattoo on a hand or foot. This design increases consciousness a little, it is also scary for others to look at.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooRed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMConMed</defName>
+    <label>Tattoo kit (mechanoid - medium)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a mechanoid, there is enough here for a sizeable tattoo on an arm or leg. This design increases consciousness by a modest amount, it is also scary for others to look at.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooRed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMConBig</defName>
+    <label>Tattoo kit (mechanoid - large)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a mechanoid, there is enough here for a large tattoo on someones chest or back. This design increases consciousness by a sizeable amount, it is also scary for others to look at.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooRed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- muffalo / mental break tattoos -->
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMBreakSma</defName>
+    <label>Tattoo kit (muffalo - small)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a cobra, there is enough here for a small tattoo on a hand or foot. This design increases mental break threshold a little. Makes movement a little slower.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooTurquoise</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMBreakMed</defName>
+    <label>Tattoo kit (muffalo - medium)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a muffalo, there is enough here for a sizeable tattoo on an arm or leg. This design increases mental break threshold  by a modest amount. Makes movement a little slower.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooTurquoise</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMBreakBig</defName>
+    <label>Tattoo kit (muffalo - large)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a muffalo, there is enough here for a large tattoo on someones chest or back. This design increases mental break threshold by a sizeable amount. Makes movement a little slower.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooTurquoise</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- insectoid / mental break tattoos -->
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMBloodSma</defName>
+    <label>Tattoo kit (insectoid - small)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of an insectoid, there is enough here for a small tattoo on a hand or foot. This design increases blood pumping a little. It will also reduce learning speed a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooLime</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMBloodMed</defName>
+    <label>Tattoo kit (insectoid - medium)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of an insectoid, there is enough here for a sizeable tattoo on an arm or leg. This design increases blood pumping by a modest amount. It will also reduce learning speed a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooLime</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMBloodBig</defName>
+    <label>Tattoo kit (insectoid - large)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of an insectoid, there is enough here for a large tattoo on someones chest or back. This design increases blood pumping by a sizeable amount. It will also reduce learning speed a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooLime</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- rose / melee tattoos -->
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMMeleeSma</defName>
+    <label>Tattoo kit (rose - small)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a rose, there is enough here for a small tattoo on a hand or foot. This design increases melee ability a little. It will also reduce pain threshold a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooPurple</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMMeleeMed</defName>
+    <label>Tattoo kit (rose - medium)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a rose, there is enough here for a sizeable tattoo on an arm or leg. This design increases melee ability by a modest amount. It will also reduce pain threshold a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooPurple</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMMeleeBig</defName>
+    <label>Tattoo kit (rose - large)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a rose, there is enough here for a large tattoo on someones chest or back. This design increases melee ability by a sizeable amount. It will also reduce pain threshold a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooPurple</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <!-- sun / shooting tattoos -->
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMShootSma</defName>
+    <label>Tattoo kit (sun - small)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a sun, there is enough here for a small tattoo on a hand or foot. This design increases shooting ability a little. It will also reduce work speed a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooOrange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMShootMed</defName>
+    <label>Tattoo kit (sun - medium)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a sun, there is enough here for a sizeable tattoo on an arm or leg. This design increases shooting ability by a modest amount. It will also reduce work speed a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooOrange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
+  <ThingDef ParentName="BodyPartArtificialBase_EM">
+    <defName>I_EMShootBig</defName>
+    <label>Tattoo kit (sun - large)</label>
+    <description>A set of carefully prepared inks and templates used to tattoo the design of a sun, there is enough here for a large tattoo on someones chest or back. This design increases shooting ability by a sizeable amount. It will also reduce work speed a little.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/TattooOrange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+    <techHediffsTags>
+      <li>EMLimb</li>
+    </techHediffsTags>
+  </ThingDef>
 </Defs>
-	

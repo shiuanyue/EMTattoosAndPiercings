@@ -1,499 +1,212 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	
-
-<RecipeDef Abstract="True" Name="EMJewels">
-		
-	<effectWorking>Cook</effectWorking>
-		
-	<soundWorking>Recipe_CookMeal</soundWorking>
-		
-	<workSpeedStat>CookSpeed</workSpeedStat>
-		
-	<workSkill>Crafting</workSkill>
-		
-	<workSkillLearnFactor>3</workSkillLearnFactor>
-		
-	<workerClass>Recipe_InstallImplant</workerClass>
-	
-	<recipeUsers>
-			
-		<li>Campfire</li>
-		
-	</recipeUsers>
-	
-	
-
-</RecipeDef>
-
-
-
-
-<!-- earrings -->
-
-
-<RecipeDef ParentName="EMJewels">
-		
-<defName>MakeEMSilEar</defName>
-		
-<label>Craft silver earring</label>
-		
-<description>Create a crude silver hoop earring for piercing.</description>
-		
-		
-<jobString>Making earring</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>Silver</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMSilEar>1</I_EMSilEar>		
-</products>
-
-
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>Silver</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMJewels">
-		
-<defName>MakeEMGolEar</defName>
-		
-<label>Craft gold earring</label>
-		
-<description>Create a crude gold hoop earring for piercing.</description>
-		
-		
-<jobString>Making earring</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>Gold</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>0.8</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMGolEar>1</I_EMGolEar>		
-</products>
-
-
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>Gold</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<!-- nose rings -->
-
-
-<RecipeDef ParentName="EMJewels">
-		
-<defName>MakeEMSilNose</defName>
-		
-<label>Craft silver nose ring</label>
-		
-<description>Create a crude silver nose ring for piercing.</description>
-		
-		
-<jobString>Making nose ring</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>Silver</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3.5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMSilNose>1</I_EMSilNose>		
-</products>
-
-
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>Silver</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMJewels">
-		
-<defName>MakeEMGolNose</defName>
-		
-<label>Craft gold nose ring</label>
-		
-<description>Create a crude gold nose ring for piercing.</description>
-		
-		
-<jobString>Making nose ring</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>Gold</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>1.5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMGolNose>1</I_EMGolNose>		
-</products>
-
-
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>Gold</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<!-- belts -->
-
-
-<RecipeDef ParentName="EMJewels">
-		
-<defName>MakeEMFabBelt</defName>
-		
-<label>Craft simple belt</label>
-		
-<description>Create a simple belt.</description>
-		
-		
-<jobString>Weaving simple belt</jobString>
-		
-<workAmount>1000</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>Cloth</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>35</count>
-			
-		</li>
-	
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMClothBelt>1</I_EMClothBelt>		
-</products>
-
-
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>Cloth</li>
-	
-			
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMJewels">
-		
-<defName>MakeEMSilBelt</defName>
-		
-<label>Craft silver studded belt</label>
-		
-<description>Create a silver studded belt.</description>
-		
-		
-<jobString>Weaving silver studded belt</jobString>
-		
-<workAmount>1200</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>Cloth</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>35</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>Silver</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMSilverBelt>1</I_EMSilverBelt>		
-</products>
-
-
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>Cloth</li>
-	
-				<li>Silver</li>
-
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
+  <RecipeDef Abstract="True" Name="EMJewels">
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Crafting</workSkill>
+    <workSkillLearnFactor>3</workSkillLearnFactor>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <recipeUsers>
+      <li>Campfire</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- earrings -->
+  <RecipeDef ParentName="EMJewels">
+    <defName>MakeEMSilEar</defName>
+    <label>Craft silver earring</label>
+    <description>Create a crude silver hoop earring for piercing.</description>
+    <jobString>Making earring</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMSilEar>1</I_EMSilEar>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Silver</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMJewels">
+    <defName>MakeEMGolEar</defName>
+    <label>Craft gold earring</label>
+    <description>Create a crude gold hoop earring for piercing.</description>
+    <jobString>Making earring</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>0.8</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMGolEar>1</I_EMGolEar>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- nose rings -->
+  <RecipeDef ParentName="EMJewels">
+    <defName>MakeEMSilNose</defName>
+    <label>Craft silver nose ring</label>
+    <description>Create a crude silver nose ring for piercing.</description>
+    <jobString>Making nose ring</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>3.5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMSilNose>1</I_EMSilNose>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Silver</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMJewels">
+    <defName>MakeEMGolNose</defName>
+    <label>Craft gold nose ring</label>
+    <description>Create a crude gold nose ring for piercing.</description>
+    <jobString>Making nose ring</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Gold</li>
+          </thingDefs>
+        </filter>
+        <count>1.5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMGolNose>1</I_EMGolNose>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Gold</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- belts -->
+  <RecipeDef ParentName="EMJewels">
+    <defName>MakeEMFabBelt</defName>
+    <label>Craft simple belt</label>
+    <description>Create a simple belt.</description>
+    <jobString>Weaving simple belt</jobString>
+    <workAmount>1000</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMClothBelt>1</I_EMClothBelt>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMJewels">
+    <defName>MakeEMSilBelt</defName>
+    <label>Craft silver studded belt</label>
+    <description>Create a silver studded belt.</description>
+    <jobString>Weaving silver studded belt</jobString>
+    <workAmount>1200</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Cloth</li>
+          </thingDefs>
+        </filter>
+        <count>35</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>Silver</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMSilverBelt>1</I_EMSilverBelt>
+    </products>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>Cloth</li>
+        <li>Silver</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
 </Defs>

@@ -1,333 +1,129 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
-
-<!-- tattoos -->
-
-	
-
-<ThingDef Name="PigmentBase_EM" Abstract="True">
-		
-	<label>pigment</label>
-		
-	<thingClass>ThingWithComps</thingClass>
-	
-	
-	<category>Item</category>
-		
-	<useHitPoints>true</useHitPoints>
-		
-	<selectable>true</selectable>
-		
-
-	<statBases>
-			
-		<MaxHitPoints>50</MaxHitPoints>
-			
-		<Flammability>1.0</Flammability>
-		
-		<Mass>0.3</Mass>
-		
-	</statBases>
-		
-
-	<altitudeLayer>Item</altitudeLayer>
-		
-	<tickerType>Never</tickerType>
-		
-
-	<alwaysHaulable>true</alwaysHaulable>
-		
-
-	<tradeTags>
-			
-		<li>BodyPartOrImplant</li>
-		
-	</tradeTags>
-		
-
-	<comps>
-			
-		<li Class="CompProperties_Forbiddable"/>
-		
-	</comps>
-		
-
-	<pathCost>10</pathCost>
-	
-	<stackLimit>75</stackLimit>
-
-	<thingCategories>
-			
-		<li>Manufactured</li>		
-	</thingCategories>
-
-
-	
-		<drawGUIOverlay>true</drawGUIOverlay>
-	
-
-</ThingDef>
-
-
-
-
-
-
-
-									<!-- base pigments -->
-
-<ThingDef ParentName="PigmentBase_EM">
-		
-	<defName>EMPigmentYellow</defName>
-		
-	<label>tattoo pigment (pollen)</label>
-		
-	<description>A special pigment made from psychoid leaves, imbued with mechanites long since dormant in the soil. A strong beautiful yellow, reminiscent of flowers.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/PigmentYellow</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>50</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-<ThingDef ParentName="PigmentBase_EM">
-		
-	<defName>EMPigmentGreen</defName>
-		
-	<label>tattoo pigment (forest)</label>
-		
-	<description>A special pigment made from healroot, imbued with mechanites long since dormant in the soil. A deep and alluring green, like a secluded wood.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/PigmentGreen</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>50</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-<ThingDef ParentName="PigmentBase_EM">
-		
-	<defName>EMPigmentRed</defName>
-		
-	<label>tattoo pigment (blood)</label>
-		
-	<description>A special pigment made from devilstrand mushrooms, imbued with mechanites long since dormant in the soil. As vivid and bright as freshly spilt blood.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/PigmentRed</texPath>
-		
-		<graphicClass>Graphic_Single</graphicClass>
-				
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>50</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-<ThingDef ParentName="PigmentBase_EM">
-		
-	<defName>EMPigmentBlue</defName>
-		
-	<label>tattoo pigment (sky)</label>
-		
-	<description>A special pigment made from smokeleaf plants, imbued with mechanites long since dormant in the soil. A calming blue, like a summer sky.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/PigmentBlue</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-				
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>50</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-	
-
-
-									<!-- pigments 2: the pigmentening -->
-
-<ThingDef ParentName="PigmentBase_EM">
-		
-	<defName>EMPigmentTurquoise</defName>
-		
-	<label>tattoo pigment (sea)</label>
-		
-	<description>A complex colour blended from forest and sky pigments, imbued with mechanites long since dormant in the soil. Impressive like a stormy sea.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/PigmentTurquoise</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>50</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-<ThingDef ParentName="PigmentBase_EM">
-		
-	<defName>EMPigmentLime</defName>
-		
-	<label>tattoo pigment (grass)</label>
-		
-	<description>A complex colour blended from pollen and forest pigments, imbued with mechanites long since dormant in the soil. A vibrant green not unlike a meadow.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/PigmentLime</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>50</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-<ThingDef ParentName="PigmentBase_EM">
-		
-	<defName>EMPigmentOrange</defName>
-		
-	<label>tattoo pigment (flame)</label>
-		
-	<description>A complex colour blended from blood and pollen pigments, imbued with mechanites long since dormant in the soil. Deep and powerful, like the sun.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/PigmentOrange</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>50</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-<ThingDef ParentName="PigmentBase_EM">
-		
-	<defName>EMPigmentPurple</defName>
-		
-	<label>tattoo pigment (royal)</label>
-		
-	<description>A complex colour blended from sky and blood pigments, imbued with mechanites long since dormant in the soil. An extremely impressive and regal purple.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Pigments/PigmentPurple</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>50</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
+  <!-- tattoos -->
+  <ThingDef Name="PigmentBase_EM" Abstract="True">
+    <label>pigment</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>0.3</Mass>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>10</pathCost>
+    <stackLimit>75</stackLimit>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+  <!-- base pigments -->
+  <ThingDef ParentName="PigmentBase_EM">
+    <defName>EMPigmentYellow</defName>
+    <label>tattoo pigment (pollen)</label>
+    <description>A special pigment made from psychoid leaves, imbued with mechanites long since dormant in the soil. A strong beautiful yellow, reminiscent of flowers.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/PigmentYellow</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="PigmentBase_EM">
+    <defName>EMPigmentGreen</defName>
+    <label>tattoo pigment (forest)</label>
+    <description>A special pigment made from healroot, imbued with mechanites long since dormant in the soil. A deep and alluring green, like a secluded wood.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/PigmentGreen</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="PigmentBase_EM">
+    <defName>EMPigmentRed</defName>
+    <label>tattoo pigment (blood)</label>
+    <description>A special pigment made from devilstrand mushrooms, imbued with mechanites long since dormant in the soil. As vivid and bright as freshly spilt blood.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/PigmentRed</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="PigmentBase_EM">
+    <defName>EMPigmentBlue</defName>
+    <label>tattoo pigment (sky)</label>
+    <description>A special pigment made from smokeleaf plants, imbued with mechanites long since dormant in the soil. A calming blue, like a summer sky.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/PigmentBlue</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+  </ThingDef>
+  <!-- pigments 2: the pigmentening -->
+  <ThingDef ParentName="PigmentBase_EM">
+    <defName>EMPigmentTurquoise</defName>
+    <label>tattoo pigment (sea)</label>
+    <description>A complex colour blended from forest and sky pigments, imbued with mechanites long since dormant in the soil. Impressive like a stormy sea.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/PigmentTurquoise</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="PigmentBase_EM">
+    <defName>EMPigmentLime</defName>
+    <label>tattoo pigment (grass)</label>
+    <description>A complex colour blended from pollen and forest pigments, imbued with mechanites long since dormant in the soil. A vibrant green not unlike a meadow.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/PigmentLime</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="PigmentBase_EM">
+    <defName>EMPigmentOrange</defName>
+    <label>tattoo pigment (flame)</label>
+    <description>A complex colour blended from blood and pollen pigments, imbued with mechanites long since dormant in the soil. Deep and powerful, like the sun.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/PigmentOrange</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="PigmentBase_EM">
+    <defName>EMPigmentPurple</defName>
+    <label>tattoo pigment (royal)</label>
+    <description>A complex colour blended from sky and blood pigments, imbued with mechanites long since dormant in the soil. An extremely impressive and regal purple.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/PigmentPurple</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>50</MarketValue>
+    </statBases>
+  </ThingDef>
 </Defs>
-	

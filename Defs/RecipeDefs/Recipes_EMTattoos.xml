@@ -1,1955 +1,862 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	
-
-<RecipeDef Abstract="True" Name="EMTattoos">
-		
-	<effectWorking>Cook</effectWorking>
-		
-	<soundWorking>Recipe_CookMeal</soundWorking>
-		
-	<workSpeedStat>CookSpeed</workSpeedStat>
-		
-	<workSkill>Cooking</workSkill>
-		
-	<workSkillLearnFactor>3</workSkillLearnFactor>
-		
-	<workerClass>Recipe_InstallImplant</workerClass>
-	
-	<recipeUsers>
-			
-		<li>PigmentPit</li>
-		
-	</recipeUsers>
-	
-
-</RecipeDef>
-
-
-
-
-<!-- cobra tattoos -->
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMSpeedSma</defName>
-		
-<label>Design small cobra tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a speed enhancing design that is big enough to cover a hand or foot.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentYellow</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMSpeedSma>1</I_EMSpeedSma>		
-</products>
-
-<researchPrerequisite>ResearchEMBasic</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentYellow</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMSpeedMed</defName>
-		
-<label>Design medium cobra tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a speed enhancing design that is big enough to cover an arm or leg.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentYellow</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMSpeedMed>1</I_EMSpeedMed>		
-</products>
-
-<researchPrerequisite>ResearchEMAdv</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentYellow</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMSpeedBig</defName>
-		
-<label>Design large cobra tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a speed enhancing design that is big enough to cover someones chest or back.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentYellow</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>10</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMSpeedBig>1</I_EMSpeedBig>		
-</products>
-
-<researchPrerequisite>ResearchEMComp</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentYellow</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-
-
-<!-- thrumbo tattoos -->
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMPainSma</defName>
-		
-<label>Design small thrumbo tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a pain reducing design that is big enough to cover a hand or foot.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentBlue</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMPainSma>1</I_EMPainSma>		
-</products>
-
-<researchPrerequisite>ResearchEMBasic</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentBlue</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMPainMed</defName>
-		
-<label>Design medium thrumbo tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a pain reducing design that is big enough to cover an arm or leg.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentBlue</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMPainMed>1</I_EMPainMed>		
-</products>
-
-<researchPrerequisite>ResearchEMAdv</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentBlue</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMPainBig</defName>
-		
-<label>Design large thrumbo tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a pain reducing design that is big enough to cover someones chest or back.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentBlue</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>10</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMPainBig>1</I_EMPainBig>		
-</products>
-
-<researchPrerequisite>ResearchEMComp</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentBlue</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-
-<!-- monkey tattoos -->
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMManipSma</defName>
-		
-<label>Design small monkey tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a manipulation enhancing design that is big enough to cover a hand or foot.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentGreen</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMManipSma>1</I_EMManipSma>		
-</products>
-
-<researchPrerequisite>ResearchEMBasic</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentGreen</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMManipMed</defName>
-		
-<label>Design medium monkey tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a manipulation enhancing design that is big enough to cover an arm or leg.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentGreen</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMManipMed>1</I_EMManipMed>		
-</products>
-
-<researchPrerequisite>ResearchEMAdv</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentGreen</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMManipBig</defName>
-		
-<label>Design large monkey tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a manipulation enhancing design that is big enough to cover someones chest or back.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentGreen</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>10</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMManipBig>1</I_EMManipBig>		
-</products>
-
-<researchPrerequisite>ResearchEMComp</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentGreen</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-
-
-
-<!-- mechanoid tattoos -->
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMConSma</defName>
-		
-<label>Design small mechanoid tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a consciousness enhancing design that is big enough to cover a hand or foot.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentRed</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMConSma>1</I_EMConSma>		
-</products>
-
-<researchPrerequisite>ResearchEMBasic</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentRed</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMConMed</defName>
-		
-<label>Design medium mechanoid tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a consciousness enhancing design that is big enough to cover an arm or leg.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentRed</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMConMed>1</I_EMConMed>		
-</products>
-
-<researchPrerequisite>ResearchEMAdv</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentRed</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMConBig</defName>
-		
-<label>Design large mechanoid tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a consciousness enhancing design that is big enough to cover someones chest or back.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentRed</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>10</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMConBig>1</I_EMConBig>		
-</products>
-
-<researchPrerequisite>ResearchEMComp</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentRed</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-
-
-<!-- muffalo tattoos -->
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMBreakSma</defName>
-		
-<label>Design small muffalo tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a mental break threshold increasing design that is big enough to cover a hand or foot.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentTurquoise</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMBreakSma>1</I_EMBreakSma>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentTurquoise</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMBreakMed</defName>
-		
-<label>Design medium muffalo tattoo</label>
-		
-<description>Prepare the pigments and materials ready tattooing a mental break threshold increasing design that is big enough to cover an arm or leg.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentTurquoise</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMBreakMed>1</I_EMBreakMed>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentTurquoise</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMBreakBig</defName>
-		
-<label>Design large muffalo tattoo</label>
-		
-<description>Prepare the pigments and materials ready tattooing a mental break threshold increasing design that is big enough to cover someones chest or back.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentTurquoise</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>10</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMBreakBig>1</I_EMBreakBig>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentTurquoise</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-						<!-- insectoid tattoos -->
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMBloodSma</defName>
-		
-<label>Design small insectoid tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a design that increases blood pumping that is big enough to cover a hand or foot.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentLime</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMBloodSma>1</I_EMBloodSma>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentLime</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMBloodMed</defName>
-		
-<label>Design medium insectoid tattoo</label>
-		
-<description>Prepare the pigments and materials ready tattooing a design that increases blood pumping that is big enough to cover an arm or leg.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentLime</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMBloodMed>1</I_EMBloodMed>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentLime</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMBloodBig</defName>
-		
-<label>Design large insectoid tattoo</label>
-		
-<description>Prepare the pigments and materials ready tattooing a design that increases blood pumping that is big enough to cover someones chest or back.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentLime</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>10</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMBloodBig>1</I_EMBloodBig>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentLime</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-
-
-						<!-- rose tattoos -->
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMMeleeSma</defName>
-		
-<label>Design small rose tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a design that increases melee ability that is big enough to cover a hand or foot.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentPurple</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMMeleeSma>1</I_EMMeleeSma>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentPurple</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMMeleeMed</defName>
-		
-<label>Design medium rose tattoo</label>
-		
-<description>Prepare the pigments and materials ready tattooing a design that increases melee ability that is big enough to cover an arm or leg.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentPurple</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMMeleeMed>1</I_EMMeleeMed>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentPurple</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMMeleeBig</defName>
-		
-<label>Design large rose tattoo</label>
-		
-<description>Prepare the pigments and materials ready tattooing a design that increases melee ability that is big enough to cover someones chest or back.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentPurple</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>10</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMMeleeBig>1</I_EMMeleeBig>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentPurple</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-
-						<!-- sun tattoos -->
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMShootSma</defName>
-		
-<label>Design small sun tattoo</label>
-		
-<description>Prepare the pigments and materials ready for tattooing a design that increases shooting ability that is big enough to cover a hand or foot.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentOrange</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>2</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMShootSma>1</I_EMShootSma>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentOrange</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMShootMed</defName>
-		
-<label>Design medium sun tattoo</label>
-		
-<description>Prepare the pigments and materials ready tattooing a design that increases shooting ability that is big enough to cover an arm or leg.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentOrange</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>3</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMShootMed>1</I_EMShootMed>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentOrange</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
-
-
-<RecipeDef ParentName="EMTattoos">
-		
-<defName>MakeEMShootBig</defName>
-		
-<label>Design large sun tattoo</label>
-		
-<description>Prepare the pigments and materials ready tattooing a design that increases shooting ability that is big enough to cover someones chest or back.</description>
-		
-		
-<jobString>Preparing tattoo.</jobString>
-		
-<workAmount>1500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>	
-				<thingDefs>
-				
-					<li>EMPigmentOrange</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>5</count>
-			
-		</li>
-	
-		<li>
-				
-			<filter>	
-				<thingDefs>
-	
-				<li>WoodLog</li>
-	
-				</thingDefs>
-			
-			</filter>
-	
-			<count>10</count>
-			
-		</li>
-		
-</ingredients>
-		
-
-
-<products>
-			
-		<I_EMShootBig>1</I_EMShootBig>		
-</products>
-
-<researchPrerequisite>ResearchEMPigments</researchPrerequisite>
-
-<fixedIngredientFilter>
-			
-			<thingDefs>
-				
-				<li>EMPigmentOrange</li>
-	
-			
-	
-							
-				<li>WoodLog</li>
-	
-			</thingDefs>
-		
-							
-</fixedIngredientFilter>
-	
-</RecipeDef>
-
-
-
+  <RecipeDef Abstract="True" Name="EMTattoos">
+    <effectWorking>Cook</effectWorking>
+    <soundWorking>Recipe_CookMeal</soundWorking>
+    <workSpeedStat>CookSpeed</workSpeedStat>
+    <workSkill>Cooking</workSkill>
+    <workSkillLearnFactor>3</workSkillLearnFactor>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <recipeUsers>
+      <li>PigmentPit</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- cobra tattoos -->
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMSpeedSma</defName>
+    <label>Design small cobra tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a speed enhancing design that is big enough to cover a hand or foot.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentYellow</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMSpeedSma>1</I_EMSpeedSma>
+    </products>
+    <researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentYellow</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMSpeedMed</defName>
+    <label>Design medium cobra tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a speed enhancing design that is big enough to cover an arm or leg.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentYellow</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMSpeedMed>1</I_EMSpeedMed>
+    </products>
+    <researchPrerequisite>ResearchEMAdv</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentYellow</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMSpeedBig</defName>
+    <label>Design large cobra tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a speed enhancing design that is big enough to cover someones chest or back.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentYellow</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMSpeedBig>1</I_EMSpeedBig>
+    </products>
+    <researchPrerequisite>ResearchEMComp</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentYellow</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- thrumbo tattoos -->
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMPainSma</defName>
+    <label>Design small thrumbo tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a pain reducing design that is big enough to cover a hand or foot.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentBlue</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMPainSma>1</I_EMPainSma>
+    </products>
+    <researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentBlue</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMPainMed</defName>
+    <label>Design medium thrumbo tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a pain reducing design that is big enough to cover an arm or leg.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentBlue</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMPainMed>1</I_EMPainMed>
+    </products>
+    <researchPrerequisite>ResearchEMAdv</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentBlue</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMPainBig</defName>
+    <label>Design large thrumbo tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a pain reducing design that is big enough to cover someones chest or back.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentBlue</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMPainBig>1</I_EMPainBig>
+    </products>
+    <researchPrerequisite>ResearchEMComp</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentBlue</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- monkey tattoos -->
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMManipSma</defName>
+    <label>Design small monkey tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a manipulation enhancing design that is big enough to cover a hand or foot.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentGreen</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMManipSma>1</I_EMManipSma>
+    </products>
+    <researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentGreen</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMManipMed</defName>
+    <label>Design medium monkey tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a manipulation enhancing design that is big enough to cover an arm or leg.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentGreen</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMManipMed>1</I_EMManipMed>
+    </products>
+    <researchPrerequisite>ResearchEMAdv</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentGreen</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMManipBig</defName>
+    <label>Design large monkey tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a manipulation enhancing design that is big enough to cover someones chest or back.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentGreen</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMManipBig>1</I_EMManipBig>
+    </products>
+    <researchPrerequisite>ResearchEMComp</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentGreen</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- mechanoid tattoos -->
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMConSma</defName>
+    <label>Design small mechanoid tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a consciousness enhancing design that is big enough to cover a hand or foot.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentRed</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMConSma>1</I_EMConSma>
+    </products>
+    <researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentRed</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMConMed</defName>
+    <label>Design medium mechanoid tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a consciousness enhancing design that is big enough to cover an arm or leg.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentRed</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMConMed>1</I_EMConMed>
+    </products>
+    <researchPrerequisite>ResearchEMAdv</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentRed</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMConBig</defName>
+    <label>Design large mechanoid tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a consciousness enhancing design that is big enough to cover someones chest or back.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentRed</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMConBig>1</I_EMConBig>
+    </products>
+    <researchPrerequisite>ResearchEMComp</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentRed</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- muffalo tattoos -->
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMBreakSma</defName>
+    <label>Design small muffalo tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a mental break threshold increasing design that is big enough to cover a hand or foot.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentTurquoise</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMBreakSma>1</I_EMBreakSma>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentTurquoise</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMBreakMed</defName>
+    <label>Design medium muffalo tattoo</label>
+    <description>Prepare the pigments and materials ready tattooing a mental break threshold increasing design that is big enough to cover an arm or leg.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentTurquoise</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMBreakMed>1</I_EMBreakMed>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentTurquoise</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMBreakBig</defName>
+    <label>Design large muffalo tattoo</label>
+    <description>Prepare the pigments and materials ready tattooing a mental break threshold increasing design that is big enough to cover someones chest or back.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentTurquoise</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMBreakBig>1</I_EMBreakBig>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentTurquoise</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- insectoid tattoos -->
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMBloodSma</defName>
+    <label>Design small insectoid tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a design that increases blood pumping that is big enough to cover a hand or foot.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentLime</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMBloodSma>1</I_EMBloodSma>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentLime</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMBloodMed</defName>
+    <label>Design medium insectoid tattoo</label>
+    <description>Prepare the pigments and materials ready tattooing a design that increases blood pumping that is big enough to cover an arm or leg.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentLime</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMBloodMed>1</I_EMBloodMed>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentLime</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMBloodBig</defName>
+    <label>Design large insectoid tattoo</label>
+    <description>Prepare the pigments and materials ready tattooing a design that increases blood pumping that is big enough to cover someones chest or back.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentLime</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMBloodBig>1</I_EMBloodBig>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentLime</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- rose tattoos -->
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMMeleeSma</defName>
+    <label>Design small rose tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a design that increases melee ability that is big enough to cover a hand or foot.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentPurple</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMMeleeSma>1</I_EMMeleeSma>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentPurple</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMMeleeMed</defName>
+    <label>Design medium rose tattoo</label>
+    <description>Prepare the pigments and materials ready tattooing a design that increases melee ability that is big enough to cover an arm or leg.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentPurple</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMMeleeMed>1</I_EMMeleeMed>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentPurple</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMMeleeBig</defName>
+    <label>Design large rose tattoo</label>
+    <description>Prepare the pigments and materials ready tattooing a design that increases melee ability that is big enough to cover someones chest or back.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentPurple</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMMeleeBig>1</I_EMMeleeBig>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentPurple</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <!-- sun tattoos -->
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMShootSma</defName>
+    <label>Design small sun tattoo</label>
+    <description>Prepare the pigments and materials ready for tattooing a design that increases shooting ability that is big enough to cover a hand or foot.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentOrange</li>
+          </thingDefs>
+        </filter>
+        <count>2</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMShootSma>1</I_EMShootSma>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentOrange</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMShootMed</defName>
+    <label>Design medium sun tattoo</label>
+    <description>Prepare the pigments and materials ready tattooing a design that increases shooting ability that is big enough to cover an arm or leg.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentOrange</li>
+          </thingDefs>
+        </filter>
+        <count>3</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMShootMed>1</I_EMShootMed>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentOrange</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
+  <RecipeDef ParentName="EMTattoos">
+    <defName>MakeEMShootBig</defName>
+    <label>Design large sun tattoo</label>
+    <description>Prepare the pigments and materials ready tattooing a design that increases shooting ability that is big enough to cover someones chest or back.</description>
+    <jobString>Preparing tattoo.</jobString>
+    <workAmount>1500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>EMPigmentOrange</li>
+          </thingDefs>
+        </filter>
+        <count>5</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>WoodLog</li>
+          </thingDefs>
+        </filter>
+        <count>10</count>
+      </li>
+    </ingredients>
+    <products>
+      <I_EMShootBig>1</I_EMShootBig>
+    </products>
+    <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+    <fixedIngredientFilter>
+      <thingDefs>
+        <li>EMPigmentOrange</li>
+        <li>WoodLog</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+  </RecipeDef>
 </Defs>

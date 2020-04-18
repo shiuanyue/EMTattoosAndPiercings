@@ -1,70 +1,48 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	<ResearchProjectDef>
-		<defName>ResearchEMBasic</defName>
-		<label>Basic Tattoos and Pigments</label>
-		<description>Craft basic pigments and tattoo designs from the pigment pit, these can be used to bolster abilities. Basic tattoos cover hands and feet.</description>
-		<baseCost>100</baseCost>
-		<techLevel>Neolithic</techLevel>
-		<researchViewX>0</researchViewX>
-		<researchViewY>0</researchViewY>
-		
-	</ResearchProjectDef>
-
-
-	<ResearchProjectDef>
-		<defName>ResearchEMAdv</defName>
-		<label>Advanced Tattoos</label>
-		<description>More tattoo designs that can be used to bolster abilities, advanced tattoos cover legs and arms.</description>
-		<baseCost>200</baseCost>
-		<techLevel>Neolithic</techLevel>
-
-		<prerequisites>
-			<li>ResearchEMBasic</li>
-		</prerequisites>
-
-		<researchViewX>1</researchViewX>
-		<researchViewY>0</researchViewY>
-	</ResearchProjectDef>
-
-
-
-	<ResearchProjectDef>
-		<defName>ResearchEMComp</defName>
-		<label>Complex Tattoos</label>
-		<description>Even more tattoos can be used to bolster abilities, complex tattoos cover someones back or chest.</description>
-		<baseCost>300</baseCost>
-		<techLevel>Neolithic</techLevel>
-
-		<prerequisites>
-			<li>ResearchEMAdv</li>
-			
-		</prerequisites>
-
-		<researchViewX>2</researchViewX>
-		<researchViewY>0</researchViewY>
-		
-	</ResearchProjectDef>
-
-	<ResearchProjectDef>
-		<defName>ResearchEMPigments</defName>
-		<label>Pigment Mixing</label>
-		<description>Create four more pigments and tattoo designs with new bonuses - basic, advanced, and complex.</description>
-		<baseCost>500</baseCost>
-		<techLevel>Neolithic</techLevel>
-
-		<prerequisites>
-			<li>ResearchEMComp</li>
-			
-		</prerequisites>
-
-		<researchViewX>3</researchViewX>
-		<researchViewY>0</researchViewY>
-		
-	</ResearchProjectDef>
-
-
-
-
+  <ResearchProjectDef>
+    <defName>ResearchEMBasic</defName>
+    <label>Basic Tattoos and Pigments</label>
+    <description>Craft basic pigments and tattoo designs from the pigment pit, these can be used to bolster abilities. Basic tattoos cover hands and feet.</description>
+    <baseCost>100</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <researchViewX>0</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResearchEMAdv</defName>
+    <label>Advanced Tattoos</label>
+    <description>More tattoo designs that can be used to bolster abilities, advanced tattoos cover legs and arms.</description>
+    <baseCost>200</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>ResearchEMBasic</li>
+    </prerequisites>
+    <researchViewX>1</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResearchEMComp</defName>
+    <label>Complex Tattoos</label>
+    <description>Even more tattoos can be used to bolster abilities, complex tattoos cover someones back or chest.</description>
+    <baseCost>300</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>ResearchEMAdv</li>
+    </prerequisites>
+    <researchViewX>2</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
+  <ResearchProjectDef>
+    <defName>ResearchEMPigments</defName>
+    <label>Pigment Mixing</label>
+    <description>Create four more pigments and tattoo designs with new bonuses - basic, advanced, and complex.</description>
+    <baseCost>500</baseCost>
+    <techLevel>Neolithic</techLevel>
+    <prerequisites>
+      <li>ResearchEMComp</li>
+    </prerequisites>
+    <researchViewX>3</researchViewX>
+    <researchViewY>0</researchViewY>
+  </ResearchProjectDef>
 </Defs>

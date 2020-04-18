@@ -1,404 +1,168 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-	
-
-<RecipeDef Abstract="True" Name="EMPiercing">
-		
-	<effectWorking>Surgery</effectWorking>
-		
-	<soundWorking>Recipe_Surgery</soundWorking>
-		
-	<workSpeedStat>MedicalOperationSpeed</workSpeedStat>
-		
-	<workSkill>Medicine</workSkill>
-		
-	<workSkillLearnFactor>2</workSkillLearnFactor>
-		
-	<surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
-	<recipeUsers>
-			
-		<li>Human</li>
-		
-	</recipeUsers>
-	
-
-</RecipeDef>
-
-
-
-
-	<!-- earrings -->
-
-
-<RecipeDef ParentName="EMPiercing">
-		
-<defName>InstallEMSilEar</defName>
-		
-<label>Silver ear piercing</label>
-		
-<description>Pierce ear with silver hoop</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Piercing ear</jobString>
-		
-<workAmount>500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMSilEar</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMSilEar</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Ear</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMSilEarStat</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-
-<RecipeDef ParentName="EMPiercing">
-		
-<defName>InstallEMGolEar</defName>
-		
-<label>Gold ear piercing</label>
-		
-<description>Pierce ear with gold hoop</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Piercing ear</jobString>
-		
-<workAmount>500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMGolEar</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMGolEar</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Ear</li>
-	
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMGolEarStat</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
-	<!-- nose rings -->
-
-
-<RecipeDef ParentName="EMPiercing">
-		
-<defName>InstallEMSilNose</defName>
-		
-<label>Silver nose piercing</label>
-		
-<description>Pierce nose with silver nose ring</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Piercing ear</jobString>
-		
-<workAmount>500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMSilNose</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMSilNose</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Nose</li>
-				
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMSilNoseStat</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-<RecipeDef ParentName="EMPiercing">
-		
-<defName>InstallEMGolNose</defName>
-		
-<label>Gold nose piercing</label>
-		
-<description>Pierce nose with gold nose ring</description>
-		
-
-<workerClass>Recipe_InstallImplant</workerClass>
-		
-<jobString>Piercing nose</jobString>
-		
-<workAmount>500</workAmount>
-		
-
-<ingredients>
-			
-		<li>
-				
-			<filter>
-					
-				<categories>
-	
-					<li>Medicine</li>
-	
-				</categories>
-			
-			</filter>
-	
-		
-			<count>1</count>
-			
-		</li>
-			
-
-		<li>
-				
-			<filter>
-					
-				<thingDefs>
-						
-					<li>I_EMGolNose</li>
-					
-				</thingDefs>
-				
-			</filter>
-		
-		
-			<count>1</count>
-			
-		</li>
-		
-
-</ingredients>
-		
-
-<fixedIngredientFilter>
-			
-			<categories>
-				
-				<li>Medicine</li>
-			
-			</categories>
-			
-
-			<thingDefs>
-				
-					<li>I_EMGolNose</li>
-			
-			</thingDefs>
-		
-</fixedIngredientFilter>
-	
-
-
-<appliedOnFixedBodyParts>
-		
-			<li>Nose</li>
-				
-</appliedOnFixedBodyParts>
-		
-<addsHediff>EMGolNoseStat</addsHediff>
-	
-</RecipeDef>
-
-	
-
-
-
+  <RecipeDef Abstract="True" Name="EMPiercing">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>2</workSkillLearnFactor>
+    <surgerySuccessChanceFactor>99999</surgerySuccessChanceFactor>
+    <recipeUsers>
+      <li>Human</li>
+    </recipeUsers>
+  </RecipeDef>
+  <!-- earrings -->
+  <RecipeDef ParentName="EMPiercing">
+    <defName>InstallEMSilEar</defName>
+    <label>Silver ear piercing</label>
+    <description>Pierce ear with silver hoop</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Piercing ear</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMSilEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMSilEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMSilEarStat</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMPiercing">
+    <defName>InstallEMGolEar</defName>
+    <label>Gold ear piercing</label>
+    <description>Pierce ear with gold hoop</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Piercing ear</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMGolEar</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMGolEar</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Ear</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMGolEarStat</addsHediff>
+  </RecipeDef>
+  <!-- nose rings -->
+  <RecipeDef ParentName="EMPiercing">
+    <defName>InstallEMSilNose</defName>
+    <label>Silver nose piercing</label>
+    <description>Pierce nose with silver nose ring</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Piercing ear</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMSilNose</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMSilNose</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMSilNoseStat</addsHediff>
+  </RecipeDef>
+  <RecipeDef ParentName="EMPiercing">
+    <defName>InstallEMGolNose</defName>
+    <label>Gold nose piercing</label>
+    <description>Pierce nose with gold nose ring</description>
+    <workerClass>Recipe_InstallImplant</workerClass>
+    <jobString>Piercing nose</jobString>
+    <workAmount>500</workAmount>
+    <ingredients>
+      <li>
+        <filter>
+          <categories>
+            <li>Medicine</li>
+          </categories>
+        </filter>
+        <count>1</count>
+      </li>
+      <li>
+        <filter>
+          <thingDefs>
+            <li>I_EMGolNose</li>
+          </thingDefs>
+        </filter>
+        <count>1</count>
+      </li>
+    </ingredients>
+    <fixedIngredientFilter>
+      <categories>
+        <li>Medicine</li>
+      </categories>
+      <thingDefs>
+        <li>I_EMGolNose</li>
+      </thingDefs>
+    </fixedIngredientFilter>
+    <appliedOnFixedBodyParts>
+      <li>Nose</li>
+    </appliedOnFixedBodyParts>
+    <addsHediff>EMGolNoseStat</addsHediff>
+  </RecipeDef>
 </Defs>
-
-	
-
-
-

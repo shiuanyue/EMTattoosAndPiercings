@@ -1,710 +1,544 @@
-<?xml version="1.0" encoding="utf-8" ?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	<!-- Added body parts -->
-
-	<HediffDef Name="AddedBodyPartBase_EM" Abstract="True">
-		<hediffClass>Hediff_Implant</hediffClass>
-		<defaultLabelColor>(0.3, 0.4, 0.8)</defaultLabelColor>
-		<isBad>false</isBad>
-	</HediffDef>
-
-
-
-<!-- Speed / snake tattoos -->
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMSpeedSma</defName>
-		<label>Cobra tattoo (small)</label>
-		<description>Cobra tattoo (small)</description>
-	<!--
+  <!-- Added body parts -->
+  <HediffDef Name="AddedBodyPartBase_EM" Abstract="True">
+    <hediffClass>Hediff_Implant</hediffClass>
+    <defaultLabelColor>(0.3, 0.4, 0.8)</defaultLabelColor>
+    <isBad>false</isBad>
+  </HediffDef>
+  <!-- Speed / snake tattoos -->
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMSpeedSma</defName>
+    <label>Cobra tattoo (small)</label>
+    <description>Cobra tattoo (small)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>0.05</offset>
-					</li>
-				</capMods>
-		<statOffsets>
-		<PsychicSensitivity>0.1</PsychicSensitivity>
-		</statOffsets>
-
-			</li>
-	
-		</stages>
-	</HediffDef>
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMSpeedMed</defName>
-		<label>Cobra tattoo (medium)</label>
-		<description>Cobra tattoo (medium)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMSpeedMed</defName>
+    <label>Cobra tattoo (medium)</label>
+    <description>Cobra tattoo (medium)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>0.1</offset>
-					</li>
-				</capMods>
-
-			<statOffsets>
-		<PsychicSensitivity>0.1</PsychicSensitivity>
-		</statOffsets>
-
-			</li>
-	
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMSpeedBig</defName>
-		<label>Cobra tattoo (large)</label>
-		<description>Cobra tattoo (large)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMSpeedBig</defName>
+    <label>Cobra tattoo (large)</label>
+    <description>Cobra tattoo (large)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>0.15</offset>
-					</li>
-				</capMods>
-			
-
-		<statOffsets>
-		<PsychicSensitivity>0.1</PsychicSensitivity>
-		</statOffsets>
-
-		</li>
-
-		</stages>
-	</HediffDef>
-
-
-
-
-
-<!-- pain threshold/ thrumbo tattoos -->
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMPainSma</defName>
-		<label>Thrumbo tattoo (small)</label>
-		<description>Thrumbo tattoo (small)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- pain threshold/ thrumbo tattoos -->
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMPainSma</defName>
+    <label>Thrumbo tattoo (small)</label>
+    <description>Thrumbo tattoo (small)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-		
-			<li>
-			 <painFactor>0.9</painFactor>
-
-				<statOffsets>
-					<ComfyTemperatureMax>-2</ComfyTemperatureMax>
-					<ComfyTemperatureMin>1</ComfyTemperatureMin>
-				</statOffsets>
-
-			</li>
-		
-		</stages>
-	</HediffDef>
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMPainMed</defName>
-		<label>Thrumbo tattoo (medium)</label>
-		<description>Thrumbo tattoo (medium)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <painFactor>0.9</painFactor>
+        <statOffsets>
+          <ComfyTemperatureMax>-2</ComfyTemperatureMax>
+          <ComfyTemperatureMin>1</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMPainMed</defName>
+    <label>Thrumbo tattoo (medium)</label>
+    <description>Thrumbo tattoo (medium)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--	<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--	<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-			 <painFactor>0.85</painFactor>
-
-			<statOffsets>
-					<ComfyTemperatureMax>-2</ComfyTemperatureMax>
-					<ComfyTemperatureMin>1</ComfyTemperatureMin>
-				</statOffsets>
-
-			</li>
-		
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMPainBig</defName>
-		<label>Thrumbo tattoo (large)</label>
-		<description>Thrumbo tattoo (large)</description>
-		<addedPartProps>
-		<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-		<li>
-			 <painFactor>0.8</painFactor>
-
-			<statOffsets>
-					<ComfyTemperatureMax>-3</ComfyTemperatureMax>
-					<ComfyTemperatureMin>1</ComfyTemperatureMin>
-				</statOffsets>
-
-		</li>
-	
-		</stages>
-	</HediffDef>
-
-
-
-
-<!-- manipulation / monkey tattoos -->
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMManipSma</defName>
-		<label>Monkey tattoo (small)</label>
-		<description>Monkey tattoo (small)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <painFactor>0.85</painFactor>
+        <statOffsets>
+          <ComfyTemperatureMax>-2</ComfyTemperatureMax>
+          <ComfyTemperatureMin>1</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMPainBig</defName>
+    <label>Thrumbo tattoo (large)</label>
+    <description>Thrumbo tattoo (large)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <painFactor>0.8</painFactor>
+        <statOffsets>
+          <ComfyTemperatureMax>-3</ComfyTemperatureMax>
+          <ComfyTemperatureMin>1</ComfyTemperatureMin>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- manipulation / monkey tattoos -->
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMManipSma</defName>
+    <label>Monkey tattoo (small)</label>
+    <description>Monkey tattoo (small)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>0.1</offset>
-					</li>
-				</capMods>
-			
-
-			<statOffsets>
-				<EatingSpeed>-0.1</EatingSpeed>
-			</statOffsets>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMManipMed</defName>
-		<label>Monkey tattoo (medium)</label>
-		<description>Monkey tattoo (medium)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.1</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <EatingSpeed>-0.1</EatingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMManipMed</defName>
+    <label>Monkey tattoo (medium)</label>
+    <description>Monkey tattoo (medium)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>0.15</offset>
-					</li>
-				</capMods>
-
-			<statOffsets>
-				<EatingSpeed>-0.1</EatingSpeed>
-			</statOffsets>
-
-			</li>
-		
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMManipBig</defName>
-		<label>Monkey tattoo (large)</label>
-		<description>Monkey tattoo (large)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <EatingSpeed>-0.1</EatingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMManipBig</defName>
+    <label>Monkey tattoo (large)</label>
+    <description>Monkey tattoo (large)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Manipulation</capacity>
-						<offset>0.20</offset>
-					</li>
-				</capMods>
-
-			<statOffsets>
-				<EatingSpeed>-0.1</EatingSpeed>
-			</statOffsets>
-
-			</li>
-		
-		</stages>
-	</HediffDef>
-
-
-
-<!-- consciousness / mechanoid tattoos -->
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMConSma</defName>
-		<label>Mechanoid tattoo (small)</label>
-		<description>Mechanoid tattoo (small)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Manipulation</capacity>
+            <offset>0.20</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <EatingSpeed>-0.1</EatingSpeed>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- consciousness / mechanoid tattoos -->
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMConSma</defName>
+    <label>Mechanoid tattoo (small)</label>
+    <description>Mechanoid tattoo (small)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>0.05</offset>
-					</li>
-									
-				</capMods>
-			
-
-			<statOffsets>
-				<SocialImpact>-0.1</SocialImpact>
-			</statOffsets>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMConMed</defName>
-		<label>Mechanoid tattoo (medium)</label>
-		<description>Mechanoid tattoo (medium)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <SocialImpact>-0.1</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMConMed</defName>
+    <label>Mechanoid tattoo (medium)</label>
+    <description>Mechanoid tattoo (medium)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>0.15</offset>
-					</li>
-					
-				</capMods>
-
-			<statOffsets>
-				<SocialImpact>-0.1</SocialImpact>
-			</statOffsets>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMConBig</defName>
-		<label>Mechanoid tattoo (large)</label>
-		<description>Mechanoid tattoo (large)</description>
-	<!--
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <SocialImpact>-0.1</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMConBig</defName>
+    <label>Mechanoid tattoo (large)</label>
+    <description>Mechanoid tattoo (large)</description>
+    <!--
 		<spawnThingOnRemoved>EMLeg</spawnThingOnRemoved>
 	-->
-		<addedPartProps>
-	<!--
-			<isSolid>true</isSolid>
+    <addedPartProps>
+      <!--
+			<solid>true</solid>
 	-->
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<capMods>
-					<li>
-						<capacity>Consciousness</capacity>
-						<offset>0.15</offset>
-					</li>
-				
-				</capMods>
-
-			<statOffsets>
-				<SocialImpact>-0.2</SocialImpact>
-			</statOffsets>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-
-
-
-
-							<!-- mental break / muffalo tattoos -->
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMMenSma</defName>
-		<label>Muffalo tattoo (small)</label>
-		<description>Muffalo tattoo (small)</description>
-	
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-						<MentalBreakThreshold>-0.025</MentalBreakThreshold>			
-				</statOffsets>
-
-				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>-0.01</offset>
-					</li>
-				
-				</capMods>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMMenMed</defName>
-		<label>Muffalo tattoo (medium)</label>
-		<description>Muffalo tattoo (medium)</description>
-
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-						<MentalBreakThreshold>-0.05</MentalBreakThreshold>			
-				</statOffsets>
-
-				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>-0.03</offset>
-					</li>
-				
-				</capMods>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMMenBig</defName>
-		<label>Muffalo tattoo (large)</label>
-		<description>Muffalo tattoo (large)</description>
-
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-						<MentalBreakThreshold>-0.075</MentalBreakThreshold>			
-				</statOffsets>
-
-				<capMods>
-					<li>
-						<capacity>Moving</capacity>
-						<offset>-0.05</offset>
-					</li>
-				
-				</capMods>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-
-							<!-- blood pumping / insectoid tattoos -->
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMBldSma</defName>
-		<label>Insectoid tattoo (small)</label>
-		<description>Insectoid tattoo (small)</description>
-	
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-						<GlobalLearningFactor>-0.05</GlobalLearningFactor>			
-				</statOffsets>
-
-				<capMods>
-					<li>
-						<capacity>BloodPumping</capacity>
-						<offset>0.05</offset>
-					</li>
-				
-				</capMods>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMBldMed</defName>
-		<label>Insectoid tattoo (medium)</label>
-		<description>Insectoid tattoo (medium)</description>
-
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-						<GlobalLearningFactor>-0.075</GlobalLearningFactor>			
-				</statOffsets>
-
-				<capMods>
-					<li>
-						<capacity>BloodPumping</capacity>
-						<offset>0.125</offset>
-					</li>
-				
-				</capMods>
-
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMBldBig</defName>
-		<label>Insectoid tattoo (large)</label>
-		<description>Insectoid tattoo (large)</description>
-
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<statOffsets>
-						<GlobalLearningFactor>-0.1</GlobalLearningFactor>			
-				</statOffsets>
-
-				<capMods>
-					<li>
-						<capacity>BloodPumping</capacity>
-						<offset>0.175</offset>
-					</li>
-				
-				</capMods>
-			</li>
-		</stages>
-	</HediffDef>
-
-
-
-
-							<!-- melee ability / rose tattoos -->
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMMelSma</defName>
-		<label>Rose tattoo (small)</label>
-		<description>Rose tattoo (small)</description>
-	
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<painFactor>1.05</painFactor>	
-				<statOffsets>
-						
-						<MeleeHitChance>0.7</MeleeHitChance>		
-				</statOffsets>
-
-
-			</li>
-		</stages>
-	</HediffDef>
-
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMMelMed</defName>
-		<label>Rose tattoo (medium)</label>
-		<description>Rose tattoo (medium)</description>
-
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<painFactor>1.1</painFactor>	
-				<statOffsets>
-						
-						<MeleeHitChance>1.1</MeleeHitChance>				
-				</statOffsets>
-			
-
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMMelBig</defName>
-		<label>Rose tattoo (large)</label>
-		<description>Rose tattoo (large)</description>
-
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				<painFactor>1.2</painFactor>
-				<statOffsets>
-							
-						<MeleeHitChance>1.5</MeleeHitChance>				
-				</statOffsets>
-
-		
-			</li>
-		</stages>
-	</HediffDef>
-
-
-
-
-							<!-- shooting ability / sun tattoos -->
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMShtSma</defName>
-		<label>Sun tattoo (small)</label>
-		<description>Sun tattoo (small)</description>
-	
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>	
-				<statOffsets>
-						
-						<ShootingAccuracyPawn>0.7</ShootingAccuracyPawn>	
-						<WorkSpeedGlobal>-0.05</WorkSpeedGlobal>	
-				</statOffsets>
-
-
-			</li>
-		</stages>
-	</HediffDef>
-
-
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMShtMed</defName>
-		<label>Sun tattoo (medium)</label>
-		<description>Sun tattoo (medium)</description>
-
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-				
-				<statOffsets>
-						
-						<ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>	
-						<WorkSpeedGlobal>-0.1</WorkSpeedGlobal>					
-				</statOffsets>
-			
-
-			</li>
-		</stages>
-	</HediffDef>
-
-	<HediffDef ParentName="AddedBodyPartBase_EM">
-		<defName>EMShtBig</defName>
-		<label>Sun tattoo (large)</label>
-		<description>Sun tattoo (large)</description>
-
-		<addedPartProps>
-			<partEfficiency>1.2</partEfficiency>
-		</addedPartProps>
-		<stages>
-			<li>
-
-				<statOffsets>
-							
-						<ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>	
-						<WorkSpeedGlobal>-0.15</WorkSpeedGlobal>					
-				</statOffsets>
-
-		
-			</li>
-		</stages>
-	</HediffDef>
-
-
-
-
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <capMods>
+          <li>
+            <capacity>Consciousness</capacity>
+            <offset>0.15</offset>
+          </li>
+        </capMods>
+        <statOffsets>
+          <SocialImpact>-0.2</SocialImpact>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- mental break / muffalo tattoos -->
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMMenSma</defName>
+    <label>Muffalo tattoo (small)</label>
+    <description>Muffalo tattoo (small)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>-0.025</MentalBreakThreshold>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.01</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMMenMed</defName>
+    <label>Muffalo tattoo (medium)</label>
+    <description>Muffalo tattoo (medium)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>-0.05</MentalBreakThreshold>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.03</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMMenBig</defName>
+    <label>Muffalo tattoo (large)</label>
+    <description>Muffalo tattoo (large)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <MentalBreakThreshold>-0.075</MentalBreakThreshold>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>Moving</capacity>
+            <offset>-0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- blood pumping / insectoid tattoos -->
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMBldSma</defName>
+    <label>Insectoid tattoo (small)</label>
+    <description>Insectoid tattoo (small)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>-0.05</GlobalLearningFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.05</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMBldMed</defName>
+    <label>Insectoid tattoo (medium)</label>
+    <description>Insectoid tattoo (medium)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>-0.075</GlobalLearningFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.125</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMBldBig</defName>
+    <label>Insectoid tattoo (large)</label>
+    <description>Insectoid tattoo (large)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <GlobalLearningFactor>-0.1</GlobalLearningFactor>
+        </statOffsets>
+        <capMods>
+          <li>
+            <capacity>BloodPumping</capacity>
+            <offset>0.175</offset>
+          </li>
+        </capMods>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- melee ability / rose tattoos -->
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMMelSma</defName>
+    <label>Rose tattoo (small)</label>
+    <description>Rose tattoo (small)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <painFactor>1.05</painFactor>
+        <statOffsets>
+          <MeleeHitChance>0.7</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMMelMed</defName>
+    <label>Rose tattoo (medium)</label>
+    <description>Rose tattoo (medium)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <painFactor>1.1</painFactor>
+        <statOffsets>
+          <MeleeHitChance>1.1</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMMelBig</defName>
+    <label>Rose tattoo (large)</label>
+    <description>Rose tattoo (large)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <painFactor>1.2</painFactor>
+        <statOffsets>
+          <MeleeHitChance>1.5</MeleeHitChance>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <!-- shooting ability / sun tattoos -->
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMShtSma</defName>
+    <label>Sun tattoo (small)</label>
+    <description>Sun tattoo (small)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>0.7</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>-0.05</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMShtMed</defName>
+    <label>Sun tattoo (medium)</label>
+    <description>Sun tattoo (medium)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>1.1</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>-0.1</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
+  <HediffDef ParentName="AddedBodyPartBase_EM">
+    <defName>EMShtBig</defName>
+    <label>Sun tattoo (large)</label>
+    <description>Sun tattoo (large)</description>
+    <addedPartProps>
+      <partEfficiency>1.2</partEfficiency>
+    </addedPartProps>
+    <stages>
+      <li>
+        <statOffsets>
+          <ShootingAccuracyPawn>1.5</ShootingAccuracyPawn>
+          <WorkSpeedGlobal>-0.15</WorkSpeedGlobal>
+        </statOffsets>
+      </li>
+    </stages>
+  </HediffDef>
 </Defs>

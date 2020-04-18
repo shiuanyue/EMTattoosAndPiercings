@@ -1,212 +1,81 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-	
-
-<!-- jewellery -->
-
-	
-
-<ThingDef Name="Jewel_EM" Abstract="True">
-		
-	<label>EMjewellery</label>
-		
-	<thingClass>ThingWithComps</thingClass>
-	
-	
-	<category>Item</category>
-		
-	<useHitPoints>true</useHitPoints>
-		
-	<selectable>true</selectable>
-		
-
-	<statBases>
-			
-		<MaxHitPoints>50</MaxHitPoints>
-			
-		<Flammability>1.0</Flammability>
-		
-		<Mass>0.3</Mass>
-		
-	</statBases>
-		
-
-	<altitudeLayer>Item</altitudeLayer>
-		
-	<tickerType>Never</tickerType>
-		
-
-	<alwaysHaulable>true</alwaysHaulable>
-		
-		
-
-	<tradeTags>
-			
-		<li>BodyPartOrImplant</li>
-		
-	</tradeTags>
-		
-
-	<comps>
-			
-		<li Class="CompProperties_Forbiddable"/>
-		
-	</comps>
-		
-
-	<pathCost>10</pathCost>
-	
-	<stackLimit>1</stackLimit>
-
-	<thingCategories>
-			
-		<li>Manufactured</li>		
-	</thingCategories>
-
-
-	
-		<drawGUIOverlay>true</drawGUIOverlay>
-	
-
-</ThingDef>
-
-
-
-
-
-
-
-									<!-- earrings -->
-
-<ThingDef ParentName="Jewel_EM">
-		
-	<defName>I_EMSilEar</defName>
-		
-	<label>Silver hoop earring</label>
-		
-	<description>A crude silver hoop earring, nice to look at and has anti-bacterial properties.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Jewel/SilverRing</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>100</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-<ThingDef ParentName="Jewel_EM">
-		
-	<defName>I_EMGolEar</defName>
-		
-	<label>Gold hoop earring</label>
-		
-	<description>A crude but beautiful gold hoop earring.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Jewel/GoldRing</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-
-									<!-- nose ring -->
-
-<ThingDef ParentName="Jewel_EM">
-		
-	<defName>I_EMSilNose</defName>
-		
-	<label>Silver nose ring</label>
-		
-	<description>A crude silver nose ring, nice to look at and has anti-bacterial properties.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Jewel/SilverRing</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>100</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-<ThingDef ParentName="Jewel_EM">
-		
-	<defName>I_EMGolNose</defName>
-		
-	<label>Gold nose ring</label>
-		
-	<description>A crude but beautiful gold nose ring.</description>
-
-
-	<graphicData>
-			
-		<texPath>Things/Item/Jewel/GoldRing</texPath>
-	
-		<graphicClass>Graphic_Single</graphicClass>
-			
-	</graphicData>
-		
-
-	<statBases>
-			
-		<MarketValue>200</MarketValue>
-		
-	</statBases>
-		
-
-	
-</ThingDef>
-
-
-
-
-
+  <!-- jewellery -->
+  <ThingDef Name="Jewel_EM" Abstract="True">
+    <label>EMjewellery</label>
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <useHitPoints>true</useHitPoints>
+    <selectable>true</selectable>
+    <statBases>
+      <MaxHitPoints>50</MaxHitPoints>
+      <Flammability>1.0</Flammability>
+      <Mass>0.3</Mass>
+    </statBases>
+    <altitudeLayer>Item</altitudeLayer>
+    <tickerType>Never</tickerType>
+    <alwaysHaulable>true</alwaysHaulable>
+    <tradeTags>
+      <li>BodyPartOrImplant</li>
+    </tradeTags>
+    <comps>
+      <li Class="CompProperties_Forbiddable" />
+    </comps>
+    <pathCost>10</pathCost>
+    <stackLimit>1</stackLimit>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <drawGUIOverlay>true</drawGUIOverlay>
+  </ThingDef>
+  <!-- earrings -->
+  <ThingDef ParentName="Jewel_EM">
+    <defName>I_EMSilEar</defName>
+    <label>Silver hoop earring</label>
+    <description>A crude silver hoop earring, nice to look at and has anti-bacterial properties.</description>
+    <graphicData>
+      <texPath>Things/Item/Jewel/SilverRing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="Jewel_EM">
+    <defName>I_EMGolEar</defName>
+    <label>Gold hoop earring</label>
+    <description>A crude but beautiful gold hoop earring.</description>
+    <graphicData>
+      <texPath>Things/Item/Jewel/GoldRing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+  </ThingDef>
+  <!-- nose ring -->
+  <ThingDef ParentName="Jewel_EM">
+    <defName>I_EMSilNose</defName>
+    <label>Silver nose ring</label>
+    <description>A crude silver nose ring, nice to look at and has anti-bacterial properties.</description>
+    <graphicData>
+      <texPath>Things/Item/Jewel/SilverRing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>100</MarketValue>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="Jewel_EM">
+    <defName>I_EMGolNose</defName>
+    <label>Gold nose ring</label>
+    <description>A crude but beautiful gold nose ring.</description>
+    <graphicData>
+      <texPath>Things/Item/Jewel/GoldRing</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+    </graphicData>
+    <statBases>
+      <MarketValue>200</MarketValue>
+    </statBases>
+  </ThingDef>
 </Defs>
-	

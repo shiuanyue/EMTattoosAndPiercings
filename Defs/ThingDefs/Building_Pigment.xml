@@ -1,76 +1,50 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-
-
-
-<ThingDef Name="EM_BuildingBase" Abstract="True">
-		
-<category>Building</category>
-		
-<thingClass>Building</thingClass>
-		
-<soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-		
-<selectable>true</selectable>
-		
-<drawerType>MapMeshAndRealTime</drawerType>
-		
-<terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-		
-<repairEffect>Repair</repairEffect>
-		
-<leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-		
-<filthLeaving>Filth_RubbleBuilding</filthLeaving>
-		
-<statBases>
-			
-	<SellPriceFactor>0.50</SellPriceFactor>
-		
-</statBases>
-	
-</ThingDef>
-
-
-
-
-
-<ThingDef ParentName="EM_BuildingBase">
-		<defName>PigmentPit</defName>
-		<label>pigment pit</label>
-		<thingClass>Building_WorkTable</thingClass>
-		<description>A special area where dormant mechanites are combined with plants to make pigment.</description>
-		<graphicData>
-			<texPath>Things/Item/Pigments/Pit</texPath>
-			
-			<graphicClass>Graphic_Single</graphicClass>
-			
-			<drawSize>(1,1)</drawSize>
-
-		</graphicData>
-		<costList>
-			<WoodLog>30</WoodLog>
-			<Silver>50</Silver>				
-					
-		</costList>
-		<altitudeLayer>Building</altitudeLayer>
-		<fillPercent>0.5</fillPercent>
-		<statBases>
-			<WorkToBuild>1000</WorkToBuild>
-		</statBases>
-		<useHitPoints>False</useHitPoints>
-	
-		<size>(1,1)</size>
-		<designationCategory>Production</designationCategory>
-		<passability>PassThroughOnly</passability>
-		<pathCost>60</pathCost>
-		<hasInteractionCell>True</hasInteractionCell>
-		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
-		<surfaceType>Item</surfaceType>
-		<researchPrerequisites><li>ResearchEMBasic</li></researchPrerequisites>
-
-<!--
+  <ThingDef Name="EM_BuildingBase" Abstract="True">
+    <category>Building</category>
+    <thingClass>Building</thingClass>
+    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
+    <selectable>true</selectable>
+    <drawerType>MapMeshAndRealTime</drawerType>
+    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
+    <repairEffect>Repair</repairEffect>
+    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
+    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
+    <statBases>
+      <SellPriceFactor>0.50</SellPriceFactor>
+    </statBases>
+  </ThingDef>
+  <ThingDef ParentName="EM_BuildingBase">
+    <defName>PigmentPit</defName>
+    <label>pigment pit</label>
+    <thingClass>Building_WorkTable</thingClass>
+    <description>A special area where dormant mechanites are combined with plants to make pigment.</description>
+    <graphicData>
+      <texPath>Things/Item/Pigments/Pit</texPath>
+      <graphicClass>Graphic_Single</graphicClass>
+      <drawSize>(1,1)</drawSize>
+    </graphicData>
+    <costList>
+      <WoodLog>30</WoodLog>
+      <Silver>50</Silver>
+    </costList>
+    <altitudeLayer>Building</altitudeLayer>
+    <fillPercent>0.5</fillPercent>
+    <statBases>
+      <WorkToBuild>1000</WorkToBuild>
+    </statBases>
+    <useHitPoints>False</useHitPoints>
+    <size>(1,1)</size>
+    <designationCategory>Production</designationCategory>
+    <passability>PassThroughOnly</passability>
+    <pathCost>60</pathCost>
+    <hasInteractionCell>True</hasInteractionCell>
+    <interactionCellOffset>(0,0,-1)</interactionCellOffset>
+    <surfaceType>Item</surfaceType>
+    <researchPrerequisites>
+      <li>ResearchEMBasic</li>
+    </researchPrerequisites>
+    <!--
 		<recipes>
 			<li>MakeEMYellow</li>
 			<li>MakeEMGreen</li>
@@ -82,37 +56,22 @@
 			<li>MakeEMOrange</li>
 		</recipes>
 -->
-
-		<inspectorTabs>
-			<li>ITab_Bills</li>
-		</inspectorTabs>
-
-<comps>
-			
-	<li Class="CompProperties_AffectedByFacilities">
-				
-		<linkableFacilities>
-					
-			<li>ToolCabinet</li>
-					
-				
-		</linkableFacilities>
-			
-	</li>
-		
-</comps>
-
-		
-
-<building>
-			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
-		</building>
-		<constructEffect>ConstructMetal</constructEffect>
-		
-		<placeWorkers>
-			<li>PlaceWorker_ShowFacilitiesConnections</li>
-		</placeWorkers>
-	</ThingDef>
-
+    <inspectorTabs>
+      <li>ITab_Bills</li>
+    </inspectorTabs>
+    <comps>
+      <li Class="CompProperties_AffectedByFacilities">
+        <linkableFacilities>
+          <li>ToolCabinet</li>
+        </linkableFacilities>
+      </li>
+    </comps>
+    <building>
+      <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+    </building>
+    <constructEffect>ConstructMetal</constructEffect>
+    <placeWorkers>
+      <li>PlaceWorker_ShowFacilitiesConnections</li>
+    </placeWorkers>
+  </ThingDef>
 </Defs>
-
