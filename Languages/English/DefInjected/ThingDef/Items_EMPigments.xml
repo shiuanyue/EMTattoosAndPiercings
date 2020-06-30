@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- base pigments -->
+
+  <EMPigmentYellow.label>tattoo pigment (pollen)</EMPigmentYellow.label>
+  <EMPigmentYellow.description>A special pigment made from psychoid leaves, imbued with mechanites long since dormant in the soil. A strong beautiful yellow, reminiscent of flowers.</EMPigmentYellow.description>
+
+  <EMPigmentGreen.label>tattoo pigment (forest)</EMPigmentGreen.label>
+  <EMPigmentGreen.description>A special pigment made from healroot, imbued with mechanites long since dormant in the soil. A deep and alluring green, like a secluded wood.</EMPigmentGreen.description>
+
+  <EMPigmentRed.label>tattoo pigment (blood)</EMPigmentRed.label>
+  <EMPigmentRed.description>A special pigment made from devilstrand mushrooms, imbued with mechanites long since dormant in the soil. As vivid and bright as freshly spilt blood.</EMPigmentRed.description>
+
+  <EMPigmentBlue.label>tattoo pigment (sky)</EMPigmentBlue.label>
+  <EMPigmentBlue.description>A special pigment made from smokeleaf plants, imbued with mechanites long since dormant in the soil. A calming blue, like a summer sky.</EMPigmentBlue.description>
+
+
+  <!-- pigments 2: the pigmentening -->
+
+  <EMPigmentTurquoise.label>tattoo pigment (sea)</EMPigmentTurquoise.label>
+  <EMPigmentTurquoise.description>A complex colour blended from forest and sky pigments, imbued with mechanites long since dormant in the soil. Impressive like a stormy sea.</EMPigmentTurquoise.description>
+
+  <EMPigmentLime.label>tattoo pigment (grass)</EMPigmentLime.label>
+  <EMPigmentLime.description>A complex colour blended from pollen and forest pigments, imbued with mechanites long since dormant in the soil. A vibrant green not unlike a meadow.</EMPigmentLime.description>
+
+  <EMPigmentOrange.label>tattoo pigment (flame)</EMPigmentOrange.label>
+  <EMPigmentOrange.description>A complex colour blended from blood and pollen pigments, imbued with mechanites long since dormant in the soil. Deep and powerful, like the sun.</EMPigmentOrange.description>
+
+  <EMPigmentPurple.label>tattoo pigment (royal)</EMPigmentPurple.label>
+  <EMPigmentPurple.description>A complex colour blended from sky and blood pigments, imbued with mechanites long since dormant in the soil. An extremely impressive and regal purple.</EMPigmentPurple.description>
+
+
+</LanguageData>

@@ -1,26 +1,179 @@
-<?xml version="1.0" encoding="utf-8"?>
-
-
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-
-
-<Operation Class="PatchOperationInsert">
+  <Operation Class="PatchOperationInsert">
     <xpath>*/PawnKindDef[@Name="TribalBase"]/invFoodDef</xpath>
     <value>
-		<techHediffsMoney>
-      		<min>500</min>
-     		 <max>800</max>
-  		  </techHediffsMoney>
-
-		<techHediffsTags>
-    		  <li>EM_Tattoo</li>
-   		 </techHediffsTags>
- 		   <techHediffsChance>0.8</techHediffsChance>
-
-
+      <techHediffsMoney>
+        <min>500</min>
+        <max>800</max>
+      </techHediffsMoney>
+      <techHediffsTags>
+        <li>EM_Tattoo</li>
+      </techHediffsTags>
+      <techHediffsChance>0.8</techHediffsChance>
     </value>
-</Operation>
-
-
-
+  </Operation>
+  <Operation Class="PatchOperationSequence">
+    <!-- check for Bodymod added by Scarification-mod, if not found, add -->
+    <success>Always</success>
+    <operations>
+      <li Class="PatchOperationTest">
+        <xpath>/Defs/ThoughtDef[defName = "BodyModificationEnthusiastAppreciation"]</xpath>
+        <success>Invert</success>
+      </li>
+      <li Class="PatchOperationAdd">
+        <xpath>/Defs</xpath>
+        <value>
+          <ThoughtDef>
+            <defName>BodyModificationEnthusiastAppreciation</defName>
+            <thoughtClass>Thought_SituationalSocial</thoughtClass>
+            <workerClass>BodyModTraits.ThoughtWorker_BodyModificationEnthusiastAppreciation</workerClass>
+            <validWhileDespawned>true</validWhileDespawned>
+            <stages>
+              <li>
+                <label>body-mod enthusiast appreciation</label>
+                <baseOpinionOffset>8</baseOpinionOffset>
+              </li>
+              <li>
+                <label>body-mod enthusiast appreciation</label>
+                <baseOpinionOffset>16</baseOpinionOffset>
+              </li>
+              <li>
+                <label>body-mod enthusiast appreciation</label>
+                <baseOpinionOffset>24</baseOpinionOffset>
+              </li>
+              <li>
+                <label>body-mod enthusiast appreciation</label>
+                <baseOpinionOffset>32</baseOpinionOffset>
+              </li>
+              <li>
+                <label>body-mod enthusiast appreciation</label>
+                <baseOpinionOffset>40</baseOpinionOffset>
+              </li>
+            </stages>
+          </ThoughtDef>
+          <ThoughtDef>
+            <defName>BodyModificationPuristDisgust</defName>
+            <thoughtClass>Thought_SituationalSocial</thoughtClass>
+            <workerClass>BodyModTraits.ThoughtWorker_BodyModificationPuristDisgust</workerClass>
+            <validWhileDespawned>true</validWhileDespawned>
+            <stages>
+              <li>
+                <label>body-mod purist disgust</label>
+                <baseOpinionOffset>-8</baseOpinionOffset>
+              </li>
+              <li>
+                <label>body-mod purist disgust</label>
+                <baseOpinionOffset>-16</baseOpinionOffset>
+              </li>
+              <li>
+                <label>body-mod purist disgust</label>
+                <baseOpinionOffset>-24</baseOpinionOffset>
+              </li>
+              <li>
+                <label>body-mod purist disgust</label>
+                <baseOpinionOffset>-32</baseOpinionOffset>
+              </li>
+              <li>
+                <label>body-mod purist disgust</label>
+                <baseOpinionOffset>-40</baseOpinionOffset>
+              </li>
+            </stages>
+          </ThoughtDef>
+          <ThoughtDef>
+            <defName>BodyModificationEnthusiastNoMod</defName>
+            <workerClass>BodyModTraits.ThoughtWorker_HasAddedBodyMod</workerClass>
+            <validWhileDespawned>true</validWhileDespawned>
+            <invert>true</invert>
+            <requiredTraits>
+              <li>BodyModificationEnthusiast</li>
+            </requiredTraits>
+            <stages>
+              <li>
+                <label>body-mod enthusiast frustrated</label>
+                <description>My skin is all empty, I need to express myself on it!</description>
+                <baseMoodEffect>-4</baseMoodEffect>
+              </li>
+            </stages>
+          </ThoughtDef>
+          <ThoughtDef>
+            <defName>BodyModificationEnthusiastHappy</defName>
+            <workerClass>BodyModTraits.ThoughtWorker_HasAddedBodyMod</workerClass>
+            <validWhileDespawned>true</validWhileDespawned>
+            <requiredTraits>
+              <li>BodyModificationEnthusiast</li>
+            </requiredTraits>
+            <stages>
+              <li>
+                <label>body-mod enthusiast pleased</label>
+                <description>I want more!</description>
+                <baseMoodEffect>4</baseMoodEffect>
+              </li>
+              <li>
+                <label>body-mod enthusiast quite pleased</label>
+                <description>Some say 'your body is a temple', mine is a canvas.</description>
+                <baseMoodEffect>7</baseMoodEffect>
+              </li>
+              <li>
+                <label>body-mod enthusiast delighted</label>
+                <description>I am walking art!</description>
+                <baseMoodEffect>9</baseMoodEffect>
+              </li>
+            </stages>
+          </ThoughtDef>
+          <ThoughtDef>
+            <defName>BodyModificationPuristUnhappy</defName>
+            <workerClass>BodyModTraits.ThoughtWorker_HasAddedBodyMod</workerClass>
+            <validWhileDespawned>true</validWhileDespawned>
+            <requiredTraits>
+              <li>BodyModificationPurist</li>
+            </requiredTraits>
+            <stages>
+              <li>
+                <label>body-mod purist squeamish</label>
+                <description>I hate this thing on my skin, its not right!</description>
+                <baseMoodEffect>-10</baseMoodEffect>
+              </li>
+              <li>
+                <label>body-mod purist disgusted</label>
+                <description>Please remove this hideus filth from me.</description>
+                <baseMoodEffect>-15</baseMoodEffect>
+              </li>
+              <li>
+                <label>body-mod purist violated</label>
+                <description>I feel like I'm suffocating, these things are strangulating my skin!</description>
+                <baseMoodEffect>-20</baseMoodEffect>
+              </li>
+            </stages>
+          </ThoughtDef>
+          <TraitDef>
+            <defName>BodyModificationEnthusiast</defName>
+            <commonality>0.9</commonality>
+            <degreeDatas>
+              <li>
+                <label>body-mod enthusiast</label>
+                <description>Some people cook lavish meals for a creative outlet, some write symphonies, some paint or sculpt masterpieces. [PAWN_nameDef] feels the ultimate form of self expression comes from visual skin alterations.</description>
+              </li>
+            </degreeDatas>
+            <conflictingTraits>
+              <li>BodyModificationPurist</li>
+            </conflictingTraits>
+          </TraitDef>
+          <TraitDef>
+            <defName>BodyModificationPurist</defName>
+            <commonality>0.7</commonality>
+            <degreeDatas>
+              <li>
+                <label>body-mod purist</label>
+                <description>[PAWN_nameDef] feels that the body is ment to be kept as it is and has a great dislike of any esthetical modifications.</description>
+              </li>
+            </degreeDatas>
+            <conflictingTraits>
+              <li>BodyModificationEnthusiast</li>
+            </conflictingTraits>
+          </TraitDef>
+        </value>
+      </li>
+    </operations>
+  </Operation>
 </Patch>

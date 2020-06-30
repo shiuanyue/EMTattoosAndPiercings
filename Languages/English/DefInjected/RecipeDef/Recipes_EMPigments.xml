@@ -1,0 +1,42 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- base pigments -->
+
+  <MakeEMYellow.label>Make pollen pigment</MakeEMYellow.label>
+  <MakeEMYellow.description>Ancient techniques blend the special properties of psychoid leaves with dormant mechanites from the planet to create an ink that will increase speed when tattooed on a colonist.</MakeEMYellow.description>
+  <MakeEMYellow.jobString>Blending ingredients.</MakeEMYellow.jobString>
+
+  <MakeEMGreen.label>Make forest pigment</MakeEMGreen.label>
+  <MakeEMGreen.description>Ancient techniques blend the special properties of herbal medicine with dormant mechanites from the planet to create an ink that will increase manipulation when tattooed on a colonist.</MakeEMGreen.description>
+  <MakeEMGreen.jobString>Blending ingredients.</MakeEMGreen.jobString>
+
+  <MakeEMRed.label>Make blood pigment</MakeEMRed.label>
+  <MakeEMRed.description>Ancient techniques blend the special properties of devilstrand mushroom with dormant mechanites from the planet to create an ink that will increase consciousness when tattooed on a colonist.</MakeEMRed.description>
+  <MakeEMRed.jobString>Blending ingredients.</MakeEMRed.jobString>
+
+  <MakeEMBlue.label>Make sky pigment</MakeEMBlue.label>
+  <MakeEMBlue.description>Ancient techniques blend the special properties of smokeleaf plants with dormant mechanites from the planet to create an ink that will increase pain threshold when tattooed on a colonist.</MakeEMBlue.description>
+  <MakeEMBlue.jobString>Blending ingredients.</MakeEMBlue.jobString>
+
+
+  <!-- harder better faster stronger pigments -->
+
+  <MakeEMTurquoise.label>Make sea pigment</MakeEMTurquoise.label>
+  <MakeEMTurquoise.description>An advanced technique that processes base pigments into advanced colours, to create an ink that will increase mental break threshold when tattooed on a colonist.</MakeEMTurquoise.description>
+  <MakeEMTurquoise.jobString>Mixing pigments.</MakeEMTurquoise.jobString>
+
+  <MakeEMLime.label>Make grass pigment</MakeEMLime.label>
+  <MakeEMLime.description>An advanced technique that processes base pigments into advanced colours, to create an ink that will increase learning speed when tattooed on a colonist.</MakeEMLime.description>
+  <MakeEMLime.jobString>Mixing pigments.</MakeEMLime.jobString>
+
+  <MakeEMPurple.label>Make royal pigment</MakeEMPurple.label>
+  <MakeEMPurple.description>An advanced technique that processes base pigments into advanced colours, to create an ink that will increase melee speed when tattooed on a colonist.</MakeEMPurple.description>
+  <MakeEMPurple.jobString>Mixing pigments.</MakeEMPurple.jobString>
+
+  <MakeEMOrange.label>Make flame pigment</MakeEMOrange.label>
+  <MakeEMOrange.description>An advanced technique that processes base pigments into advanced colours, to create an ink that will increase shooting accuracy when tattooed on a colonist.</MakeEMOrange.description>
+  <MakeEMOrange.jobString>Mixing pigments.</MakeEMOrange.jobString>
+
+
+</LanguageData>

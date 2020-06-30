@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Speed / snake tattoos -->
+
+  <EMSpeedSma.label>Cobra tattoo (small)</EMSpeedSma.label>
+  <EMSpeedSma.description>Cobra tattoo (small)</EMSpeedSma.description>
+
+  <EMSpeedMed.label>Cobra tattoo (medium)</EMSpeedMed.label>
+  <EMSpeedMed.description>Cobra tattoo (medium)</EMSpeedMed.description>
+
+  <EMSpeedBig.label>Cobra tattoo (large)</EMSpeedBig.label>
+  <EMSpeedBig.description>Cobra tattoo (large)</EMSpeedBig.description>
+
+
+  <!-- pain threshold/ thrumbo tattoos -->
+
+  <EMPainSma.label>Thrumbo tattoo (small)</EMPainSma.label>
+  <EMPainSma.description>Thrumbo tattoo (small)</EMPainSma.description>
+
+  <EMPainMed.label>Thrumbo tattoo (medium)</EMPainMed.label>
+  <EMPainMed.description>Thrumbo tattoo (medium)</EMPainMed.description>
+
+  <EMPainBig.label>Thrumbo tattoo (large)</EMPainBig.label>
+  <EMPainBig.description>Thrumbo tattoo (large)</EMPainBig.description>
+
+
+  <!-- manipulation / monkey tattoos -->
+
+  <EMManipSma.label>Monkey tattoo (small)</EMManipSma.label>
+  <EMManipSma.description>Monkey tattoo (small)</EMManipSma.description>
+
+  <EMManipMed.label>Monkey tattoo (medium)</EMManipMed.label>
+  <EMManipMed.description>Monkey tattoo (medium)</EMManipMed.description>
+
+  <EMManipBig.label>Monkey tattoo (large)</EMManipBig.label>
+  <EMManipBig.description>Monkey tattoo (large)</EMManipBig.description>
+
+
+  <!-- consciousness / mechanoid tattoos -->
+
+  <EMConSma.label>Mechanoid tattoo (small)</EMConSma.label>
+  <EMConSma.description>Mechanoid tattoo (small)</EMConSma.description>
+
+  <EMConMed.label>Mechanoid tattoo (medium)</EMConMed.label>
+  <EMConMed.description>Mechanoid tattoo (medium)</EMConMed.description>
+
+  <EMConBig.label>Mechanoid tattoo (large)</EMConBig.label>
+  <EMConBig.description>Mechanoid tattoo (large)</EMConBig.description>
+
+
+  <!-- mental break / muffalo tattoos -->
+
+  <EMMenSma.label>Muffalo tattoo (small)</EMMenSma.label>
+  <EMMenSma.description>Muffalo tattoo (small)</EMMenSma.description>
+
+  <EMMenMed.label>Muffalo tattoo (medium)</EMMenMed.label>
+  <EMMenMed.description>Muffalo tattoo (medium)</EMMenMed.description>
+
+  <EMMenBig.label>Muffalo tattoo (large)</EMMenBig.label>
+  <EMMenBig.description>Muffalo tattoo (large)</EMMenBig.description>
+
+
+  <!-- blood pumping / insectoid tattoos -->
+
+  <EMBldSma.label>Insectoid tattoo (small)</EMBldSma.label>
+  <EMBldSma.description>Insectoid tattoo (small)</EMBldSma.description>
+
+  <EMBldMed.label>Insectoid tattoo (medium)</EMBldMed.label>
+  <EMBldMed.description>Insectoid tattoo (medium)</EMBldMed.description>
+
+  <EMBldBig.label>Insectoid tattoo (large)</EMBldBig.label>
+  <EMBldBig.description>Insectoid tattoo (large)</EMBldBig.description>
+
+
+  <!-- melee ability / rose tattoos -->
+
+  <EMMelSma.label>Rose tattoo (small)</EMMelSma.label>
+  <EMMelSma.description>Rose tattoo (small)</EMMelSma.description>
+
+  <EMMelMed.label>Rose tattoo (medium)</EMMelMed.label>
+  <EMMelMed.description>Rose tattoo (medium)</EMMelMed.description>
+
+  <EMMelBig.label>Rose tattoo (large)</EMMelBig.label>
+  <EMMelBig.description>Rose tattoo (large)</EMMelBig.description>
+
+
+  <!-- shooting ability / sun tattoos -->
+
+  <EMShtSma.label>Sun tattoo (small)</EMShtSma.label>
+  <EMShtSma.description>Sun tattoo (small)</EMShtSma.description>
+
+  <EMShtMed.label>Sun tattoo (medium)</EMShtMed.label>
+  <EMShtMed.description>Sun tattoo (medium)</EMShtMed.description>
+
+  <EMShtBig.label>Sun tattoo (large)</EMShtBig.label>
+  <EMShtBig.description>Sun tattoo (large)</EMShtBig.description>
+
+
+</LanguageData>

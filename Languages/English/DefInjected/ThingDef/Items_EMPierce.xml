@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- earrings -->
+
+  <I_EMSilEar.label>Silver hoop earring</I_EMSilEar.label>
+  <I_EMSilEar.description>A crude silver hoop earring, nice to look at and has anti-bacterial properties.</I_EMSilEar.description>
+
+  <I_EMGolEar.label>Gold hoop earring</I_EMGolEar.label>
+  <I_EMGolEar.description>A crude but beautiful gold hoop earring.</I_EMGolEar.description>
+
+
+  <!-- nose ring -->
+
+  <I_EMSilNose.label>Silver nose ring</I_EMSilNose.label>
+  <I_EMSilNose.description>A crude silver nose ring, nice to look at and has anti-bacterial properties.</I_EMSilNose.description>
+
+  <I_EMGolNose.label>Gold nose ring</I_EMGolNose.label>
+  <I_EMGolNose.description>A crude but beautiful gold nose ring.</I_EMGolNose.description>
+
+
+</LanguageData>

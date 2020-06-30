@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- earrings -->
+
+  <MakeEMSilEar.label>Craft silver earring</MakeEMSilEar.label>
+  <MakeEMSilEar.description>Create a crude silver hoop earring for piercing.</MakeEMSilEar.description>
+  <MakeEMSilEar.jobString>Making earring</MakeEMSilEar.jobString>
+
+  <MakeEMGolEar.label>Craft gold earring</MakeEMGolEar.label>
+  <MakeEMGolEar.description>Create a crude gold hoop earring for piercing.</MakeEMGolEar.description>
+  <MakeEMGolEar.jobString>Making earring</MakeEMGolEar.jobString>
+
+
+  <!-- nose rings -->
+
+  <MakeEMSilNose.label>Craft silver nose ring</MakeEMSilNose.label>
+  <MakeEMSilNose.description>Create a crude silver nose ring for piercing.</MakeEMSilNose.description>
+  <MakeEMSilNose.jobString>Making nose ring</MakeEMSilNose.jobString>
+
+  <MakeEMGolNose.label>Craft gold nose ring</MakeEMGolNose.label>
+  <MakeEMGolNose.description>Create a crude gold nose ring for piercing.</MakeEMGolNose.description>
+  <MakeEMGolNose.jobString>Making nose ring</MakeEMGolNose.jobString>
+
+
+  <!-- belts -->
+
+  <MakeEMFabBelt.label>Craft simple belt</MakeEMFabBelt.label>
+  <MakeEMFabBelt.description>Create a simple belt.</MakeEMFabBelt.description>
+  <MakeEMFabBelt.jobString>Weaving simple belt</MakeEMFabBelt.jobString>
+
+  <MakeEMSilBelt.label>Craft silver studded belt</MakeEMSilBelt.label>
+  <MakeEMSilBelt.description>Create a silver studded belt.</MakeEMSilBelt.description>
+  <MakeEMSilBelt.jobString>Weaving silver studded belt</MakeEMSilBelt.jobString>
+
+
+</LanguageData>

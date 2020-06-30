@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ResearchEMBasic.label>Basic Tattoos and Pigments</ResearchEMBasic.label>
+  <ResearchEMBasic.description>Craft basic pigments and tattoo designs from the pigment pit, these can be used to bolster abilities. Basic tattoos cover hands and feet.</ResearchEMBasic.description>
+
+  <ResearchEMAdv.label>Advanced Tattoos</ResearchEMAdv.label>
+  <ResearchEMAdv.description>More tattoo designs that can be used to bolster abilities, advanced tattoos cover legs and arms.</ResearchEMAdv.description>
+
+  <ResearchEMComp.label>Complex Tattoos</ResearchEMComp.label>
+  <ResearchEMComp.description>Even more tattoos can be used to bolster abilities, complex tattoos cover someones back or chest.</ResearchEMComp.description>
+
+  <ResearchEMPigments.label>Pigment Mixing</ResearchEMPigments.label>
+  <ResearchEMPigments.description>Create four more pigments and tattoo designs with new bonuses - basic, advanced, and complex.</ResearchEMPigments.description>
+
+
+</LanguageData>
