@@ -4,6 +4,7 @@
     <effectWorking>Surgery</effectWorking>
     <soundWorking>Recipe_Surgery</soundWorking>
     <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <dontShowIfAnyIngredientMissing>True</dontShowIfAnyIngredientMissing>
     <workSkill>Medicine</workSkill>
     <workSkillLearnFactor>16</workSkillLearnFactor>
     <surgerySuccessChanceFactor>5</surgerySuccessChanceFactor>
