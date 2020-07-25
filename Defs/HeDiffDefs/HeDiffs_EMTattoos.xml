@@ -29,7 +29,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <EatingSpeed>-0.1</EatingSpeed>
         </statOffsets>
       </li>
     </stages>
@@ -56,7 +56,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <EatingSpeed>-0.1</EatingSpeed>
         </statOffsets>
       </li>
     </stages>
@@ -83,7 +83,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <PsychicSensitivity>0.1</PsychicSensitivity>
+          <EatingSpeed>-0.1</EatingSpeed>
         </statOffsets>
       </li>
     </stages>
@@ -174,7 +174,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <EatingSpeed>-0.1</EatingSpeed>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
         </statOffsets>
       </li>
     </stages>
@@ -201,7 +201,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <EatingSpeed>-0.1</EatingSpeed>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
         </statOffsets>
       </li>
     </stages>
@@ -228,7 +228,7 @@
           </li>
         </capMods>
         <statOffsets>
-          <EatingSpeed>-0.1</EatingSpeed>
+          <PsychicSensitivity>0.1</PsychicSensitivity>
         </statOffsets>
       </li>
     </stages>

@@ -10,10 +10,11 @@
     <statBases>
       <MaxHitPoints>50</MaxHitPoints>
       <Flammability>1.0</Flammability>
+      <Beauty>0</Beauty>
       <Mass>0.3</Mass>
     </statBases>
     <altitudeLayer>Item</altitudeLayer>
-    <tickerType>Never</tickerType>
+    <tickerType>Rare</tickerType>
     <alwaysHaulable>true</alwaysHaulable>
     <tradeTags>
       <li>BodyPartOrImplant</li>
@@ -21,6 +22,8 @@
     <comps>
       <li Class="CompProperties_Forbiddable" />
     </comps>
+    <resourceReadoutPriority>Last</resourceReadoutPriority>
+    <uiIconForStackCount>1</uiIconForStackCount>
     <pathCost>10</pathCost>
     <stackLimit>75</stackLimit>
     <thingCategories>
