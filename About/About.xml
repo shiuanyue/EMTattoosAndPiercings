@@ -9,28 +9,37 @@
     <li>1.2</li>
   </supportedVersions>
   <modDependencies />
-  <loadAfter />
-  <description>Update of Moshs mod for RimWorld 1.1
+  <loadAfter>
+    <li>Mlie.Scarification</li>
+    <li>syrchalis.traitvalue</li>
+  </loadAfter>
+  <description>[img]https://i.imgur.com/WAEzk68.png[/img]
+Update of Moshs mod
 https://steamcommunity.com/sharedfiles/filedetails/?id=1325853932
 
-[img]https://raw.githubusercontent.com/emipa606/RimWorld-Wrapper/master/Notice.png[/img]
+- Added traits for body-mod enthusiast and body-mod purist
+  These are also compatible with the Scarification-mod 
+  https://steamcommunity.com/sharedfiles/filedetails/?id=2031643134
+- Only surgeries that have available materials are now shown in the operations-menu
 
-[img]https://i.imgur.com/GYswkZ7.png[/img]
+[img]https://i.imgur.com/7Gzt3Rg.png[/img]
 
-Support-chat:
-https://discord.gg/SuhwVpM
-
-Non-steam version:
-https://github.com/emipa606/EMTattoosAndPiercings
+[table]
+	[tr]
+		[td][url=https://invite.gg/Mlie][img]https://i.imgur.com/zdzzBrc.png[/img][/url][/td]
+		[td][url=https://github.com/emipa606/EMTattoosAndPiercings][img]https://i.imgur.com/kTkpTOE.png[/img][/url][/td]
+	[/tr]
+[/table]
 	
---- Original Description ---
+[img]https://i.imgur.com/NOW7jU1.png[/img]
+
 Colonists tired of not being able to really express themselves?
 Devilstrand duster just not doing it for you anymore?
 Then look no further!
 
 Ancient secrets lost to most are jealously guarded - the ability to wake long dormant mechanites from the very soil of the planet and imbue them in sacred (ability enhacing) art.
 
-Intended as a very early game expansion on prosthetics.
+Intended as a very early game expansion on prosthetics. 
 Pigments are crafted at a pigment pit from various plants, the pigments are then used to create designs.
 Each of the designs offers various strengths of benefit and drawback.
 
@@ -41,5 +50,18 @@ Jewellery (ear and nose rings) are made at a camp fire and installed as surgery 
 Necklaces and belts are crafted and worn as normal.
 
 If you like this then check out the other mods in the Early Man pack for tribal fun and frolicks!
-https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383</description>
+https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383
+
+
+[img]https://i.imgur.com/Rs6T6cr.png[/img]
+[list]
+[*] See if the the error persists if you just have this mod and its requirements active.
+[*] If not, try adding your other mods until it happens again.
+[*] Post your error-log using [url=https://steamcommunity.com/workshop/filedetails/?id=818773962]HugsLib[/url] and command Ctrl+F12
+[*] For best support, please use the Discord-channel for error-reporting.
+[*] Do not report errors by making a discussion-thread, I get no notification of that.
+[*] If you have the solution for a problem, please post it to the GitHub repository.
+[/list]
+</description>
 </ModMetaData>
+
