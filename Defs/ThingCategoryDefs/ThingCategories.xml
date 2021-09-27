@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingCategoryDef>
+    <defName>EMBodyPartsTattoos</defName>
+    <label>tattoos</label>
+    <parent>BodyParts</parent>
+  </ThingCategoryDef>
+  <ThingCategoryDef>
+    <defName>EMPigments</defName>
+    <label>pigments</label>
+    <parent>Manufactured</parent>
+  </ThingCategoryDef>
+</Defs>

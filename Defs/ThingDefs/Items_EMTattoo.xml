@@ -28,7 +28,7 @@
   </ThingDef>
   <ThingDef ParentName="BodyPartBase_EM" Name="BodyPartArtificialBase_EM" Abstract="True">
     <thingCategories>
-      <li>BodyPartsBionic</li>
+      <li>EMBodyPartsTattoos</li>
     </thingCategories>
   </ThingDef>
   <!-- cobra / speed tattoos -->

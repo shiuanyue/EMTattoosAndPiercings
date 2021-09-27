@@ -27,7 +27,7 @@
     <pathCost>10</pathCost>
     <stackLimit>75</stackLimit>
     <thingCategories>
-      <li>Manufactured</li>
+      <li>EMPigments</li>
     </thingCategories>
     <drawGUIOverlay>true</drawGUIOverlay>
   </ThingDef>

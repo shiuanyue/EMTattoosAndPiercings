@@ -1,5 +1,8 @@
 # Changelog for EMTattoosAndPiercings
 
+1.0.8.0 - Tatoos and piercings now have their own categories
+
+
 1.0.7.0 - Mod updated for 1.3 and passed autotests
 
 
