@@ -1,10 +1,10 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Defs>
-  <HugsLib.UpdateFeatureDef Abstract="true" Name="Mlie_UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef Abstract="true" Name="EMTattoosAndPiercings_UpdateFeatureBase">
     <modNameReadable>EMTattoosAndPiercings</modNameReadable>
     <linkUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=2030227116</linkUrl>
   </HugsLib.UpdateFeatureDef>
-  <HugsLib.UpdateFeatureDef ParentName="Mlie_UpdateFeatureBase">
+  <HugsLib.UpdateFeatureDef ParentName="EMTattoosAndPiercings_UpdateFeatureBase">
     <defName>EMTattoosAndPiercings_1_0_2_0</defName>
     <assemblyVersion>1.0.2.0</assemblyVersion>
     <content>There is now two added traits similar to the Transhumanist and Body Purist traits but instead focused on body-modifications. These act the same way where as a body-mod enthusiast would like to have esthetical body-modifications and the body-mod purist does not.
