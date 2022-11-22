@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EMTP_CurrentModVersion>Installed mod-version: {0}</EMTP_CurrentModVersion>
+  <EMTP_CountAsBad>Count modifications as bad</EMTP_CountAsBad>
+  <EMTP_CountAsBad_Tooltip>If defined as bad, healing serums and similar items can remove them</EMTP_CountAsBad_Tooltip>
+</LanguageData>

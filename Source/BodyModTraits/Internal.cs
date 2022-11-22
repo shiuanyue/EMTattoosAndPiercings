@@ -12,7 +12,7 @@ public static class Internal
         var hediffs = hediffSet.hediffs;
         foreach (var item in hediffs)
         {
-            if (item.def.defName == "Tattooed" || item.def.defName == "Scarified")
+            if (item.def.defName is "Tattooed" or "Scarified")
             {
                 num++;
             }

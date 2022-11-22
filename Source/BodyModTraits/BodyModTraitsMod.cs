@@ -1,3 +1,4 @@
+using Mlie;
 using UnityEngine;
 using Verse;
 
@@ -7,6 +8,7 @@ namespace BodyModTraits;
 internal class BodyModTraitsMod : Mod
 {
     public static BodyModTraitsMod instance;
+    private static string currentVersion;
 
     private BodyModTraitsSettings settings;
 
@@ -14,6 +16,9 @@ internal class BodyModTraitsMod : Mod
         : base(content)
     {
         instance = this;
+        currentVersion =
+            VersionFromManifest.GetVersionFromModMetaData(
+                ModLister.GetActiveModWithIdentifier("Mlie.EMTattoosAndPiercings"));
     }
 
     private BodyModTraitsSettings Settings
@@ -40,8 +45,16 @@ internal class BodyModTraitsMod : Mod
         var listing_Standard = new Listing_Standard();
         listing_Standard.Begin(rect);
         listing_Standard.Gap();
-        listing_Standard.CheckboxLabeled("Count modifications as bad", ref Settings.IsBad,
-            "If defined as bad, healing serums and similar items can remove them");
+        listing_Standard.CheckboxLabeled("EMTP_CountAsBad".Translate(), ref Settings.IsBad,
+            "EMTP_CountAsBad_Tooltip".Translate());
+        if (currentVersion != null)
+        {
+            listing_Standard.Gap();
+            GUI.contentColor = Color.gray;
+            listing_Standard.Label("EMTP_CurrentModVersion".Translate(currentVersion));
+            GUI.contentColor = Color.white;
+        }
+
         listing_Standard.End();
     }
 

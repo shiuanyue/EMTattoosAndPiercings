@@ -9,6 +9,6 @@ internal class BodyModTraitsSettings : ModSettings
     public override void ExposeData()
     {
         base.ExposeData();
-        Scribe_Values.Look(ref IsBad, "IsBad", false);
+        Scribe_Values.Look(ref IsBad, "IsBad");
     }
 }
