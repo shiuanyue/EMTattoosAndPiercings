@@ -6,7 +6,7 @@
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Cooking</workSkill>
     <workSkillLearnFactor>3</workSkillLearnFactor>
-    <workerClass>Recipe_InstallImplant</workerClass>
+    <!-- <workerClass>Recipe_InstallImplant</workerClass> -->
     <recipeUsers>
       <li>PigmentPit</li>
     </recipeUsers>

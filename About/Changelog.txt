@@ -1,5 +1,8 @@
 # Changelog for EMTattoosAndPiercings
 
+1.4.3 - Fixed tatoos recipes
+
+
 1.4.2 - Updated the graphics a bit, thanks Joaquin69.
 Used DeepL to update translations for ChineseSimplified, French, German, Russian
 

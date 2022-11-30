@@ -6,8 +6,8 @@
     <description>Craft basic pigments and tattoo designs from the pigment pit, these can be used to bolster abilities. Basic tattoos cover hands and feet.</description>
     <baseCost>100</baseCost>
     <techLevel>Neolithic</techLevel>
-    <researchViewX>0</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>0.00</researchViewX>
+    <researchViewY>5.00</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>ResearchEMAdv</defName>
@@ -18,8 +18,8 @@
     <prerequisites>
       <li>ResearchEMBasic</li>
     </prerequisites>
-    <researchViewX>1</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>1.00</researchViewX>
+    <researchViewY>5.10</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>ResearchEMComp</defName>
@@ -30,8 +30,8 @@
     <prerequisites>
       <li>ResearchEMAdv</li>
     </prerequisites>
-    <researchViewX>2</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>2.00</researchViewX>
+    <researchViewY>4.25</researchViewY>
   </ResearchProjectDef>
   <ResearchProjectDef>
     <defName>ResearchEMPigments</defName>
@@ -42,7 +42,7 @@
     <prerequisites>
       <li>ResearchEMComp</li>
     </prerequisites>
-    <researchViewX>3</researchViewX>
-    <researchViewY>0</researchViewY>
+    <researchViewX>3.00</researchViewX>
+    <researchViewY>4.25</researchViewY>
   </ResearchProjectDef>
 </Defs>
