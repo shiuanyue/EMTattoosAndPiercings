@@ -6,7 +6,7 @@
     <workSpeedStat>CookSpeed</workSpeedStat>
     <workSkill>Crafting</workSkill>
     <workSkillLearnFactor>3</workSkillLearnFactor>
-    <workerClass>Recipe_InstallImplant</workerClass>
+    <!-- <workerClass>Recipe_InstallImplant</workerClass> -->
     <recipeUsers>
       <li>Campfire</li>
     </recipeUsers>
