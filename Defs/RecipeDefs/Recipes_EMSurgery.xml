@@ -48,8 +48,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Foot</li>
-      <li>Foot</li>
-      <li>Hand</li>
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMSpeedSma</addsHediff>
@@ -89,8 +87,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
-      <li>Leg</li>
-      <li>Arm</li>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMSpeedMed</addsHediff>
@@ -170,8 +166,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Foot</li>
-      <li>Foot</li>
-      <li>Hand</li>
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMPainSma</addsHediff>
@@ -211,8 +205,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
-      <li>Leg</li>
-      <li>Arm</li>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMPainMed</addsHediff>
@@ -292,8 +284,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Foot</li>
-      <li>Foot</li>
-      <li>Hand</li>
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMManipSma</addsHediff>
@@ -333,8 +323,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
-      <li>Leg</li>
-      <li>Arm</li>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMManipMed</addsHediff>
@@ -414,8 +402,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Foot</li>
-      <li>Foot</li>
-      <li>Hand</li>
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMConSma</addsHediff>
@@ -455,8 +441,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
-      <li>Leg</li>
-      <li>Arm</li>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMConMed</addsHediff>
@@ -536,8 +520,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Foot</li>
-      <li>Foot</li>
-      <li>Hand</li>
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMMenSma</addsHediff>
@@ -577,8 +559,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
-      <li>Leg</li>
-      <li>Arm</li>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMMenMed</addsHediff>
@@ -658,8 +638,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Foot</li>
-      <li>Foot</li>
-      <li>Hand</li>
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMBldSma</addsHediff>
@@ -699,8 +677,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
-      <li>Leg</li>
-      <li>Arm</li>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMBldMed</addsHediff>
@@ -780,8 +756,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Foot</li>
-      <li>Foot</li>
-      <li>Hand</li>
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMMelSma</addsHediff>
@@ -821,8 +795,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
-      <li>Leg</li>
-      <li>Arm</li>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMMelMed</addsHediff>
@@ -902,8 +874,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Foot</li>
-      <li>Foot</li>
-      <li>Hand</li>
       <li>Hand</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMShtSma</addsHediff>
@@ -943,8 +913,6 @@
     </fixedIngredientFilter>
     <appliedOnFixedBodyParts>
       <li>Leg</li>
-      <li>Leg</li>
-      <li>Arm</li>
       <li>Arm</li>
     </appliedOnFixedBodyParts>
     <addsHediff>EMShtMed</addsHediff>

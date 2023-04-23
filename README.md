@@ -1,6 +1,5 @@
 # EMTattoosAndPiercings
 
-
 ![Image](https://i.imgur.com/buuPQel.png)
 
 Update of Moshs mod
@@ -50,6 +49,4 @@ https://steamcommunity.com/sharedfiles/filedetails/?id=1342138383
 -  If you have the solution for a problem, please post it to the GitHub repository.
 
 
-
-
-https://steamcommunity.com/sharedfiles/filedetails/changelog/2030227116]Last updated 2022-12-16
+https://steamcommunity.com/sharedfiles/filedetails/changelog/2030227116]Last updated 2023-04-23

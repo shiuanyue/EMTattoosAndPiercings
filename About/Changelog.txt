@@ -1,5 +1,8 @@
 # Changelog for EMTattoosAndPiercings
 
+1.4.5 - Fixed duplicated recipe, thanks 拳鸡高手泰深
+
+
 1.4.4 - Fixed the jewlery recipes
 
 
