@@ -1,5 +1,8 @@
 # Changelog for EMTattoosAndPiercings
 
+1.4.7 - Added an extra recipe for sky pigment using sky steel from Alpha Animals
+
+
 1.4.6 - Added alternate ink recipes using resources from Biotech, Vanilla Factions Expanded - Classical, Apini Playable Race, Continued!, ESCP - Spriggan, MorrowRim - Telvanni Technology, Anima Gear, Squiddle Mod. Thanks Hydromancerx
 
 

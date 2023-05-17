@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="AA_SkySteel"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <RecipeDef ParentName="EMPigments">
+          <defName>MakeEMBlueSkySteel</defName>
+          <label>Make sky pigment from sky steel</label>
+          <description>Ancient techniques blend the special properties of sky steel with dormant mechanites from the planet to create an ink that will increase pain threshold when tattooed on a colonist.</description>
+          <jobString>Blending ingredients.</jobString>
+          <workAmount>600</workAmount>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>AA_SkySteel</li>
+                </thingDefs>
+              </filter>
+              <count>1</count>
+            </li>
+          </ingredients>
+          <products>
+            <EMPigmentBlue>1</EMPigmentBlue>
+          </products>
+          <researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>AA_SkySteel</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </RecipeDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>
