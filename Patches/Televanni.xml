@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="MorrowRim_FireSalts"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <RecipeDef ParentName="EMPigments">
+          <defName>MakeEMOrangeTelevanni</defName>
+          <label>Make flame pigment from salts</label>
+          <description>An advanced technique that processes fire salts into advanced colours, to create an ink that will increase shooting accuracy when tattooed on a colonist.</description>
+          <jobString>Mixing pigments.</jobString>
+          <workAmount>600</workAmount>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>MorrowRim_FireSalts</li>
+                </thingDefs>
+              </filter>
+              <count>10</count>
+            </li>
+          </ingredients>
+          <products>
+            <EMPigmentOrange>1</EMPigmentOrange>
+          </products>
+          <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>MorrowRim_FireSalts</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </RecipeDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="SquiddleInk"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <RecipeDef ParentName="EMPigments">
+          <defName>MakeEMTurquoiseSquiddle</defName>
+          <label>Make sea pigment from ink</label>
+          <description>An advanced technique that processes squiddle ink into advanced colours, to create an ink that will increase mental break threshold when tattooed on a colonist.</description>
+          <jobString>Mixing pigments.</jobString>
+          <workAmount>600</workAmount>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>SquiddleInk</li>
+                </thingDefs>
+              </filter>
+              <count>10</count>
+            </li>
+          </ingredients>
+          <products>
+            <EMPigmentTurquoise>1</EMPigmentTurquoise>
+          </products>
+          <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>SquiddleInk</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </RecipeDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

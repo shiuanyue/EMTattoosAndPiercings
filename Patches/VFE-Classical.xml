@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="VFEC_Tyrian"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <RecipeDef ParentName="EMPigments">
+          <defName>MakeEMPurpleTyrian</defName>
+          <label>Make royal pigment from textile</label>
+          <description>An advanced technique that processes royal textiles into advanced colours, to create an ink that will increase melee speed when tattooed on a colonist.</description>
+          <jobString>Mixing pigments.</jobString>
+          <workAmount>600</workAmount>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>VFEC_Tyrian</li>
+                </thingDefs>
+              </filter>
+              <count>5</count>
+            </li>
+          </ingredients>
+          <products>
+            <EMPigmentPurple>1</EMPigmentPurple>
+          </products>
+          <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>VFEC_Tyrian</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </RecipeDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="ESCP_SprigganSap"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <RecipeDef ParentName="EMPigments">
+          <defName>MakeEMGreenSprigganSap</defName>
+          <label>Make forest pigment from sap</label>
+          <description>Ancient techniques blend the special properties of spriggan sap with dormant mechanites from the planet to create an ink that will increase manipulation when tattooed on a colonist.</description>
+          <jobString>Blending ingredients.</jobString>
+          <workAmount>600</workAmount>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>ESCP_SprigganSap</li>
+                </thingDefs>
+              </filter>
+              <count>10</count>
+            </li>
+          </ingredients>
+          <products>
+            <EMPigmentGreen>1</EMPigmentGreen>
+          </products>
+          <researchPrerequisite>ResearchEMBasic</researchPrerequisite>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>ESCP_SprigganSap</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </RecipeDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>

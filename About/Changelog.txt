@@ -1,5 +1,8 @@
 # Changelog for EMTattoosAndPiercings
 
+1.4.6 - Added alternate ink recipes using resources from Biotech, Vanilla Factions Expanded - Classical, Apini Playable Race, Continued!, ESCP - Spriggan, MorrowRim - Telvanni Technology, Anima Gear, Squiddle Mod. Thanks Hydromancerx
+
+
 1.4.5 - Fixed duplicated recipe, thanks 拳鸡高手泰深
 
 

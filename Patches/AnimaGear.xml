@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationConditional">
+    <xpath>/Defs/ThingDef[defName="AnimaFiber"]</xpath>
+    <success>Always</success>
+    <match Class="PatchOperationAdd">
+      <xpath>Defs</xpath>
+      <value>
+        <RecipeDef ParentName="EMPigments">
+          <defName>MakeEMLimeAnimaFiber</defName>
+          <label>Make grass pigment from fiber</label>
+          <description>An advanced technique that processes anima fibers into advanced colours, to create an ink that will increase learning speed when tattooed on a colonist.</description>
+          <jobString>Mixing pigments.</jobString>
+          <workAmount>600</workAmount>
+          <ingredients>
+            <li>
+              <filter>
+                <thingDefs>
+                  <li>AnimaFiber</li>
+                </thingDefs>
+              </filter>
+              <count>10</count>
+            </li>
+          </ingredients>
+          <products>
+            <EMPigmentLime>1</EMPigmentLime>
+          </products>
+          <researchPrerequisite>ResearchEMPigments</researchPrerequisite>
+          <fixedIngredientFilter>
+            <thingDefs>
+              <li>AnimaFiber</li>
+            </thingDefs>
+          </fixedIngredientFilter>
+        </RecipeDef>
+      </value>
+    </match>
+  </Operation>
+</Patch>
