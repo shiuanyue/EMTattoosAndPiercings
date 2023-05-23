@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- base pigments -->
+
+  <MakeEMYellow.label>製作花粉顏料</MakeEMYellow.label>
+  <MakeEMYellow.description>將迷幻草的特殊性質與土壤中的機械微粒相結合的遠古技術，創造出一種墨水，將其紋在殖民者身上可以增加速度。</MakeEMYellow.description>
+  <MakeEMYellow.jobString>混合成分。</MakeEMYellow.jobString>
+
+  <MakeEMGreen.label>製造森林顏料</MakeEMGreen.label>
+  <MakeEMGreen.description>將草藥的特殊性質與土壤中的機械微粒相結合的遠古技術，創造出一種墨水，將其紋在殖民者身上可以增加操作能力。</MakeEMGreen.description>
+  <MakeEMGreen.jobString>混合成分。</MakeEMGreen.jobString>
+
+  <MakeEMRed.label>製造血紅顏料</MakeEMRed.label>
+  <MakeEMRed.description>將魔鬼菇的特殊性質與土壤中的機械微粒相結合的遠古技術，創造出一種墨水，將其紋在殖民者身上可以增加意識。</MakeEMRed.description>
+  <MakeEMRed.jobString>混合成分。</MakeEMRed.jobString>
+
+  <MakeEMBlue.label>製造天空顏料</MakeEMBlue.label>
+  <MakeEMBlue.description>將菸葉的特殊性質與土壤中的機械微粒相結合的遠古技術，創造出一種墨水，將其紋在殖民者身上可以增加痛覺閾值。</MakeEMBlue.description>
+  <MakeEMBlue.jobString>混合成分。</MakeEMBlue.jobString>
+
+
+  <!-- harder better faster stronger pigments -->
+
+  <MakeEMTurquoise.label>製作海洋顏料</MakeEMTurquoise.label>
+  <MakeEMTurquoise.description>將多種基礎顏料混合的進階技術，製作一種墨水，將其紋在殖民者身上可以增加心理崩潰閾值。</MakeEMTurquoise.description>
+  <MakeEMTurquoise.jobString>混合顏料。</MakeEMTurquoise.jobString>
+
+  <MakeEMLime.label>製作草地顏料</MakeEMLime.label>
+  <MakeEMLime.description>將多種基礎顏料混合的進階技術，製作一種墨水，將其紋在殖民者身上可以增加學習速度。</MakeEMLime.description>
+  <MakeEMLime.jobString>混合顏料。</MakeEMLime.jobString>
+
+  <MakeEMPurple.label>製作皇家顏料</MakeEMPurple.label>
+  <MakeEMPurple.description>將多種基礎顏料混合的進階技術，製作一種墨水，將其紋在殖民者身上可以增加近戰速度。</MakeEMPurple.description>
+  <MakeEMPurple.jobString>混合顏料。</MakeEMPurple.jobString>
+
+  <MakeEMOrange.label>製作火焰顏料</MakeEMOrange.label>
+  <MakeEMOrange.description>將多種基礎顏料混合的進階技術，製作一種墨水，將其紋在殖民者身上可以增加射擊準確度。</MakeEMOrange.description>
+  <MakeEMOrange.jobString>混合顏料。</MakeEMOrange.jobString>
+  
+  <!-- Biotech -->
+  
+  <MakeEMRedBiotech.label>製造血紅顏料(血原包)</MakeEMRedBiotech.label>
+  <MakeEMRedBiotech.description>將血原包的特殊性質與土壤中的機械微粒相結合的遠古技術，創造出一種墨水，將其紋在殖民者身上可以增加意識。</MakeEMRedBiotech.description>
+  <MakeEMRedBiotech.jobString>混合成分。</MakeEMRedBiotech.jobString>
+
+
+</LanguageData>

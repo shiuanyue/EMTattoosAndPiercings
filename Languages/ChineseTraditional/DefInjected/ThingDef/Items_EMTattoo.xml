@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- cobra / speed tattoos -->
+
+  <I_EMSpeedSma.label>紋身套裝 (眼鏡蛇 - 小)</I_EMSpeedSma.label>
+  <I_EMSpeedSma.description>一套眼鏡蛇紋身的模版與墨水，材料夠將手/腳覆蓋。能輕微強化移動速度，但相對進食變得耗時。</I_EMSpeedSma.description>
+
+  <I_EMSpeedMed.label>紋身套裝 (眼鏡蛇 - 中)</I_EMSpeedMed.label>
+  <I_EMSpeedMed.description>一套眼鏡蛇紋身的模版與墨水，材料夠將手臂/腿部覆蓋。這種設計適度地提高了移動速度。可能使進食變得耗時。</I_EMSpeedMed.description>
+
+  <I_EMSpeedBig.label>紋身套裝 (眼鏡蛇 - 大)</I_EMSpeedBig.label>
+  <I_EMSpeedBig.description>一套眼鏡蛇紋身的模版與墨水，材料夠將胸部/背部覆蓋。這種設計大大提高了速度。可能使進食變得耗時。</I_EMSpeedBig.description>
+
+
+  <!-- thrumbo / pain tattoos -->
+
+  <I_EMPainSma.label>紋身套裝 (獨角獸 - 小)</I_EMPainSma.label>
+  <I_EMPainSma.description>一套獨角獸紋身的模版與墨水，材料夠將手/腳覆蓋。 This design decreases pain a little. Will make you a little more susceptible to the elements.</I_EMPainSma.description>
+
+  <I_EMPainMed.label>紋身套裝 (獨角獸 - 中)</I_EMPainMed.label>
+  <I_EMPainMed.description>一套獨角獸紋身的模版與墨水，材料夠將手臂/腿部覆蓋。This design decreases pain by a modest amount. Will make you a little more susceptible to the elements.</I_EMPainMed.description>
+
+  <I_EMPainBig.label>紋身套裝 (獨角獸 - 大)</I_EMPainBig.label>
+  <I_EMPainBig.description>一套獨角獸紋身的模版與墨水，材料夠將胸部/背部覆蓋。This design decreases pain by a sizeable amount. Will make you a little more susceptible to the elements.</I_EMPainBig.description>
+
+
+  <!-- monkey / manipulation tattoos -->
+
+  <I_EMManipSma.label>紋身套裝 (猴子 - 小)</I_EMManipSma.label>
+  <I_EMManipSma.description>一套猴子紋身的模版與墨水，材料夠將手/腳覆蓋。 This design increases manipulation a little. Psychic phenomena are a little more effective too.</I_EMManipSma.description>
+
+  <I_EMManipMed.label>紋身套裝 (猴子 - 中)</I_EMManipMed.label>
+  <I_EMManipMed.description>一套猴子紋身的模版與墨水，材料夠將手臂/腿部覆蓋。This design increases manipulation by a modest amount. Psychic phenomena are a little more effective too.</I_EMManipMed.description>
+
+  <I_EMManipBig.label>紋身套裝 (猴子 - 大)</I_EMManipBig.label>
+  <I_EMManipBig.description>一套猴子紋身的模版與墨水，材料夠將胸部/背部覆蓋。This design increases manipulation by a sizeable amount. Psychic phenomena are a little more effective too.</I_EMManipBig.description>
+
+
+  <!-- mechanoid / consciousness tattoos -->
+
+  <I_EMConSma.label>紋身套裝 (機械族 - 小)</I_EMConSma.label>
+  <I_EMConSma.description>一套機械族紋身的模版與墨水，材料夠將手/腳覆蓋。 This design increases consciousness a little, it is also scary for others to look at.</I_EMConSma.description>
+
+  <I_EMConMed.label>紋身套裝 (機械族 - 中)</I_EMConMed.label>
+  <I_EMConMed.description>一套機械族紋身的模版與墨水，材料夠將手臂/腿部覆蓋。This design increases consciousness by a modest amount, it is also scary for others to look at.</I_EMConMed.description>
+
+  <I_EMConBig.label>紋身套裝 (機械族 - 大)</I_EMConBig.label>
+  <I_EMConBig.description>一套機械族紋身的模版與墨水，材料夠將胸部/背部覆蓋。This design increases consciousness by a sizeable amount, it is also scary for others to look at.</I_EMConBig.description>
+
+
+  <!-- muffalo / mental break tattoos -->
+
+  <I_EMBreakSma.label>紋身套裝 (毛牛 - 小)</I_EMBreakSma.label>
+  <I_EMBreakSma.description>一套毛牛紋身的模版與墨水，材料夠將手/腳覆蓋。 This design increases mental break threshold a little. Makes movement a little slower.</I_EMBreakSma.description>
+
+  <I_EMBreakMed.label>紋身套裝 (毛牛 - 中)</I_EMBreakMed.label>
+  <I_EMBreakMed.description>一套毛牛紋身的模版與墨水，材料夠將手臂/腿部覆蓋。This design increases mental break threshold  by a modest amount. Makes movement a little slower.</I_EMBreakMed.description>
+
+  <I_EMBreakBig.label>紋身套裝 (毛牛 - 大)</I_EMBreakBig.label>
+  <I_EMBreakBig.description>一套毛牛紋身的模版與墨水，材料夠將胸部/背部覆蓋。This design increases mental break threshold by a sizeable amount. Makes movement a little slower.</I_EMBreakBig.description>
+
+
+  <!-- insectoid / mental break tattoos -->
+
+  <I_EMBloodSma.label>紋身套裝 (蟲族 - 小)</I_EMBloodSma.label>
+  <I_EMBloodSma.description>一套蟲族紋身的模版與墨水，材料夠將手/腳覆蓋。 This design increases blood pumping a little. It will also reduce learning speed a little.</I_EMBloodSma.description>
+
+  <I_EMBloodMed.label>紋身套裝 (蟲族 - 中)</I_EMBloodMed.label>
+  <I_EMBloodMed.description>一套蟲族紋身的模版與墨水，材料夠將手臂/腿部覆蓋。This design increases blood pumping by a modest amount. It will also reduce learning speed a little.</I_EMBloodMed.description>
+
+  <I_EMBloodBig.label>紋身套裝 (蟲族 - 大)</I_EMBloodBig.label>
+  <I_EMBloodBig.description>一套蟲族紋身的模版與墨水，材料夠將胸部/背部覆蓋。This design increases blood pumping by a sizeable amount. It will also reduce learning speed a little.</I_EMBloodBig.description>
+
+
+  <!-- rose / melee tattoos -->
+
+  <I_EMMeleeSma.label>紋身套裝 (玫瑰 - 小)</I_EMMeleeSma.label>
+  <I_EMMeleeSma.description>一套玫瑰紋身的模版與墨水，材料夠將手/腳覆蓋。 This design increases melee ability a little. It will also reduce pain threshold a little.</I_EMMeleeSma.description>
+
+  <I_EMMeleeMed.label>紋身套裝 (玫瑰 - 中)</I_EMMeleeMed.label>
+  <I_EMMeleeMed.description>一套玫瑰紋身的模版與墨水，材料夠將手臂/腿部覆蓋。This design increases melee ability by a modest amount. It will also reduce pain threshold a little.</I_EMMeleeMed.description>
+
+  <I_EMMeleeBig.label>紋身套裝 (玫瑰 - 大)</I_EMMeleeBig.label>
+  <I_EMMeleeBig.description>一套玫瑰紋身的模版與墨水，材料夠將胸部/背部覆蓋。This design increases melee ability by a sizeable amount. It will also reduce pain threshold a little.</I_EMMeleeBig.description>
+
+
+  <!-- sun / shooting tattoos -->
+
+  <I_EMShootSma.label>紋身套裝 (太陽 - 小)</I_EMShootSma.label>
+  <I_EMShootSma.description>一套太陽紋身的模版與墨水，材料夠將手/腳覆蓋。 This design increases shooting ability a little. It will also reduce work speed a little.</I_EMShootSma.description>
+
+  <I_EMShootMed.label>紋身套裝 (太陽 - 中)</I_EMShootMed.label>
+  <I_EMShootMed.description>一套太陽紋身的模版與墨水，材料夠將手臂/腿部覆蓋。This design increases shooting ability by a modest amount. It will also reduce work speed a little.</I_EMShootMed.description>
+
+  <I_EMShootBig.label>紋身套裝 (太陽 - 大)</I_EMShootBig.label>
+  <I_EMShootBig.description>一套太陽紋身的模版與墨水，材料夠將胸部/背部覆蓋。This design increases shooting ability by a sizeable amount. It will also reduce work speed a little.</I_EMShootBig.description>
+
+
+</LanguageData>

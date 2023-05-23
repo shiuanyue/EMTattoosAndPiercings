@@ -1,0 +1,100 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Speed / snake tattoos -->
+
+  <EMSpeedSma.label>眼鏡蛇紋身(小)</EMSpeedSma.label>
+  <EMSpeedSma.description>眼鏡蛇紋身(小)</EMSpeedSma.description>
+
+  <EMSpeedMed.label>眼鏡蛇紋身(中)</EMSpeedMed.label>
+  <EMSpeedMed.description>眼鏡蛇紋身(中)</EMSpeedMed.description>
+
+  <EMSpeedBig.label>眼鏡蛇紋身(大)</EMSpeedBig.label>
+  <EMSpeedBig.description>眼鏡蛇紋身(大)</EMSpeedBig.description>
+
+
+  <!-- pain threshold/ thrumbo tattoos -->
+
+  <EMPainSma.label>獨角獸紋身(小)</EMPainSma.label>
+  <EMPainSma.description>獨角獸紋身(小)</EMPainSma.description>
+
+  <EMPainMed.label>獨角獸紋身(中)</EMPainMed.label>
+  <EMPainMed.description>獨角獸紋身(中)</EMPainMed.description>
+
+  <EMPainBig.label>獨角獸紋身(大)</EMPainBig.label>
+  <EMPainBig.description>獨角獸紋身(大)</EMPainBig.description>
+
+
+  <!-- manipulation / monkey tattoos -->
+
+  <EMManipSma.label>猴子紋身(小)</EMManipSma.label>
+  <EMManipSma.description>猴子紋身(小)</EMManipSma.description>
+
+  <EMManipMed.label>猴子紋身(中)</EMManipMed.label>
+  <EMManipMed.description>猴子紋身(中)</EMManipMed.description>
+
+  <EMManipBig.label>猴子紋身(大)</EMManipBig.label>
+  <EMManipBig.description>猴子紋身(大)</EMManipBig.description>
+
+
+  <!-- consciousness / mechanoid tattoos -->
+
+  <EMConSma.label>機械族紋身(小)</EMConSma.label>
+  <EMConSma.description>機械族紋身(小)</EMConSma.description>
+
+  <EMConMed.label>機械族紋身(中)</EMConMed.label>
+  <EMConMed.description>機械族紋身(中)</EMConMed.description>
+
+  <EMConBig.label>機械族紋身(大)</EMConBig.label>
+  <EMConBig.description>機械族紋身(大)</EMConBig.description>
+
+
+  <!-- mental break / muffalo tattoos -->
+
+  <EMMenSma.label>毛牛紋身(小)</EMMenSma.label>
+  <EMMenSma.description>毛牛紋身(小)</EMMenSma.description>
+
+  <EMMenMed.label>毛牛紋身(中)</EMMenMed.label>
+  <EMMenMed.description>毛牛紋身(中)</EMMenMed.description>
+
+  <EMMenBig.label>毛牛紋身(大)</EMMenBig.label>
+  <EMMenBig.description>毛牛紋身(大)</EMMenBig.description>
+
+
+  <!-- blood pumping / insectoid tattoos -->
+
+  <EMBldSma.label>蟲族紋身(小)</EMBldSma.label>
+  <EMBldSma.description>蟲族紋身(小)</EMBldSma.description>
+
+  <EMBldMed.label>蟲族紋身(中)</EMBldMed.label>
+  <EMBldMed.description>蟲族紋身(中)</EMBldMed.description>
+
+  <EMBldBig.label>蟲族紋身(大)</EMBldBig.label>
+  <EMBldBig.description>蟲族紋身(大)</EMBldBig.description>
+
+
+  <!-- melee ability / rose tattoos -->
+
+  <EMMelSma.label>玫瑰紋身(小)</EMMelSma.label>
+  <EMMelSma.description>玫瑰紋身(小)</EMMelSma.description>
+
+  <EMMelMed.label>玫瑰紋身(中)</EMMelMed.label>
+  <EMMelMed.description>玫瑰紋身(中)</EMMelMed.description>
+
+  <EMMelBig.label>玫瑰紋身(大)</EMMelBig.label>
+  <EMMelBig.description>玫瑰紋身(大)</EMMelBig.description>
+
+
+  <!-- shooting ability / sun tattoos -->
+
+  <EMShtSma.label>太陽紋身(小)</EMShtSma.label>
+  <EMShtSma.description>太陽紋身(小)</EMShtSma.description>
+
+  <EMShtMed.label>太陽紋身(中)</EMShtMed.label>
+  <EMShtMed.description>太陽紋身(中)</EMShtMed.description>
+
+  <EMShtBig.label>太陽紋身(大)</EMShtBig.label>
+  <EMShtBig.description>太陽紋身(大)</EMShtBig.description>
+
+
+</LanguageData>

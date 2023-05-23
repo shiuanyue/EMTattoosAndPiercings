@@ -1,0 +1,121 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- cobra / speed tattoo -->
+
+  <InstallEMSpeedSma.label>紋上眼鏡蛇刺青</InstallEMSpeedSma.label>
+  <InstallEMSpeedSma.description>紋上眼鏡蛇刺青</InstallEMSpeedSma.description>
+  <InstallEMSpeedSma.jobString>正在紋上眼鏡蛇刺青</InstallEMSpeedSma.jobString>
+
+  <InstallEMSpeedMed.label>紋上眼鏡蛇刺青</InstallEMSpeedMed.label>
+  <InstallEMSpeedMed.description>紋上眼鏡蛇刺青</InstallEMSpeedMed.description>
+  <InstallEMSpeedMed.jobString>正在紋上眼鏡蛇刺青</InstallEMSpeedMed.jobString>
+
+  <InstallEMSpeedBig.label>紋上眼鏡蛇刺青</InstallEMSpeedBig.label>
+  <InstallEMSpeedBig.description>紋上眼鏡蛇刺青</InstallEMSpeedBig.description>
+  <InstallEMSpeedBig.jobString>正在紋上眼鏡蛇刺青</InstallEMSpeedBig.jobString>
+
+  <InstallEMPSma.label>紋上獨角獸刺青</InstallEMPSma.label>
+  <InstallEMPSma.description>紋上獨角獸刺青</InstallEMPSma.description>
+  <InstallEMPSma.jobString>正在紋上獨角獸刺青</InstallEMPSma.jobString>
+
+  <InstallEMPMed.label>紋上獨角獸刺青</InstallEMPMed.label>
+  <InstallEMPMed.description>紋上獨角獸刺青</InstallEMPMed.description>
+  <InstallEMPMed.jobString>正在紋上獨角獸刺青</InstallEMPMed.jobString>
+
+  <InstallEMPBig.label>紋上獨角獸刺青</InstallEMPBig.label>
+  <InstallEMPBig.description>紋上獨角獸刺青</InstallEMPBig.description>
+  <InstallEMPBig.jobString>正在紋上獨角獸刺青</InstallEMPBig.jobString>
+
+
+  <!-- monkey / manipulation tattoo -->
+
+  <InstallEMManipSma.label>紋上猴子刺青</InstallEMManipSma.label>
+  <InstallEMManipSma.description>紋上猴子刺青</InstallEMManipSma.description>
+  <InstallEMManipSma.jobString>正在紋上猴子刺青</InstallEMManipSma.jobString>
+
+  <InstallEMManipMed.label>紋上猴子刺青</InstallEMManipMed.label>
+  <InstallEMManipMed.description>紋上猴子刺青</InstallEMManipMed.description>
+  <InstallEMManipMed.jobString>正在紋上猴子刺青</InstallEMManipMed.jobString>
+
+  <InstallEMPainBig.label>紋上猴子刺青</InstallEMPainBig.label>
+  <InstallEMPainBig.description>紋上猴子刺青</InstallEMPainBig.description>
+  <InstallEMPainBig.jobString>正在紋上猴子刺青</InstallEMPainBig.jobString>
+
+
+  <!-- mechanoid / consciousness tattoo -->
+
+  <InstallEMPainSma.label>紋上機械族刺青</InstallEMPainSma.label>
+  <InstallEMPainSma.description>紋上機械族刺青</InstallEMPainSma.description>
+  <InstallEMPainSma.jobString>正在紋上機械族刺青</InstallEMPainSma.jobString>
+
+  <InstallEMPainMed.label>紋上機械族刺青</InstallEMPainMed.label>
+  <InstallEMPainMed.description>紋上機械族刺青</InstallEMPainMed.description>
+  <InstallEMPainMed.jobString>正在紋上機械族刺青</InstallEMPainMed.jobString>
+
+  <InstallEMConBig.label>紋上機械族刺青</InstallEMConBig.label>
+  <InstallEMConBig.description>紋上機械族刺青</InstallEMConBig.description>
+  <InstallEMConBig.jobString>正在紋上機械族刺青</InstallEMConBig.jobString>
+
+
+  <!-- muffalo / mental break tattoo -->
+
+  <InstallEMBreakSma.label>紋上毛牛刺青</InstallEMBreakSma.label>
+  <InstallEMBreakSma.description>紋上毛牛刺青</InstallEMBreakSma.description>
+  <InstallEMBreakSma.jobString>正在紋上毛牛刺青</InstallEMBreakSma.jobString>
+
+  <InstallEMBreakMed.label>紋上毛牛刺青</InstallEMBreakMed.label>
+  <InstallEMBreakMed.description>紋上毛牛刺青</InstallEMBreakMed.description>
+  <InstallEMBreakMed.jobString>正在紋上毛牛刺青</InstallEMBreakMed.jobString>
+
+  <InstallEMBreakBig.label>紋上毛牛刺青</InstallEMBreakBig.label>
+  <InstallEMBreakBig.description>紋上毛牛刺青</InstallEMBreakBig.description>
+  <InstallEMBreakBig.jobString>正在紋上毛牛刺青</InstallEMBreakBig.jobString>
+
+
+  <!-- insectoid / blood pumping tattoo -->
+
+  <InstallEMBloodSma.label>紋上蟲族刺青</InstallEMBloodSma.label>
+  <InstallEMBloodSma.description>紋上蟲族刺青</InstallEMBloodSma.description>
+  <InstallEMBloodSma.jobString>正在紋上蟲族刺青</InstallEMBloodSma.jobString>
+
+  <InstallEMBloodMed.label>紋上蟲族刺青</InstallEMBloodMed.label>
+  <InstallEMBloodMed.description>紋上蟲族刺青</InstallEMBloodMed.description>
+  <InstallEMBloodMed.jobString>正在紋上蟲族刺青</InstallEMBloodMed.jobString>
+
+  <InstallEMBloodBig.label>紋上蟲族刺青</InstallEMBloodBig.label>
+  <InstallEMBloodBig.description>紋上蟲族刺青</InstallEMBloodBig.description>
+  <InstallEMBloodBig.jobString>正在紋上蟲族刺青</InstallEMBloodBig.jobString>
+
+
+  <!-- rose / melee tattoo -->
+
+  <InstallEMPMeleeSma.label>紋上玫瑰刺青</InstallEMPMeleeSma.label>
+  <InstallEMPMeleeSma.description>紋上玫瑰刺青</InstallEMPMeleeSma.description>
+  <InstallEMPMeleeSma.jobString>正在紋上玫瑰刺青</InstallEMPMeleeSma.jobString>
+
+  <InstallEMMeleeMed.label>紋上玫瑰刺青</InstallEMMeleeMed.label>
+  <InstallEMMeleeMed.description>紋上玫瑰刺青</InstallEMMeleeMed.description>
+  <InstallEMMeleeMed.jobString>正在紋上玫瑰刺青</InstallEMMeleeMed.jobString>
+
+  <InstallEMMeleeBig.label>紋上玫瑰刺青</InstallEMMeleeBig.label>
+  <InstallEMMeleeBig.description>紋上玫瑰刺青</InstallEMMeleeBig.description>
+  <InstallEMMeleeBig.jobString>正在紋上玫瑰刺青</InstallEMMeleeBig.jobString>
+
+
+  <!-- sun / shooting tattoo -->
+
+  <InstallEMShootSma.label>紋上太陽刺青</InstallEMShootSma.label>
+  <InstallEMShootSma.description>紋上太陽刺青</InstallEMShootSma.description>
+  <InstallEMShootSma.jobString>正在紋上太陽刺青</InstallEMShootSma.jobString>
+
+  <InstallEMShootMed.label>紋上太陽刺青</InstallEMShootMed.label>
+  <InstallEMShootMed.description>紋上太陽刺青</InstallEMShootMed.description>
+  <InstallEMShootMed.jobString>正在紋上太陽刺青</InstallEMShootMed.jobString>
+
+  <InstallEMShootBig.label>紋上太陽刺青</InstallEMShootBig.label>
+  <InstallEMShootBig.description>紋上太陽刺青</InstallEMShootBig.description>
+  <InstallEMShootBig.jobString>正在紋上太陽刺青</InstallEMShootBig.jobString>
+
+
+</LanguageData>

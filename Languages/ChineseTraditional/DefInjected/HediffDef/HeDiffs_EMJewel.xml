@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- earrings -->
+
+  <EMSilEarStat.label>銀耳環</EMSilEarStat.label>
+  <EMSilEarStat.description>銀耳環</EMSilEarStat.description>
+
+  <EMGolEarStat.label>金耳環</EMGolEarStat.label>
+  <EMGolEarStat.description>金耳環</EMGolEarStat.description>
+
+
+  <!-- nose rings -->
+
+  <EMSilNoseStat.label>銀鼻環</EMSilNoseStat.label>
+  <EMSilNoseStat.description>銀鼻環</EMSilNoseStat.description>
+
+  <EMGolNoseStat.label>金鼻環</EMGolNoseStat.label>
+  <EMGolNoseStat.description>金鼻環</EMGolNoseStat.description>
+
+
+</LanguageData>

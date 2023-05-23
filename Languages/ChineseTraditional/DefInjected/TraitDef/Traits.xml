@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <BodyModificationPurist.degreeDatas.0.label>珍惜髮膚</BodyModificationPurist.degreeDatas.0.label>
+  <BodyModificationPurist.degreeDatas.0.description>[PAWN_nameDef]認為身體應該保持自然，並且很厭惡任何修改外觀的手術。</BodyModificationPurist.degreeDatas.0.description>
+
+  <BodyModificationEnthusiast.degreeDatas.0.label>愛好紋身</BodyModificationEnthusiast.degreeDatas.0.label>
+  <BodyModificationEnthusiast.degreeDatas.0.description>人們對於創新定義可能是煮出一桌奢華大餐、寫出一首交響曲或是創作出一幅好畫或一座傑出雕像。[PAWN_nameDef]認為最極致的方式就是改變皮膚後的視覺衝擊。</BodyModificationEnthusiast.degreeDatas.0.description>
+
+</LanguageData>

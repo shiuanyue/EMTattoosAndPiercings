@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- earrings -->
+
+  <I_EMSilEar.label>銀耳環</I_EMSilEar.label>
+  <I_EMSilEar.description>一個粗糙的銀耳環，好看，具有抗菌性能。</I_EMSilEar.description>
+
+  <I_EMGolEar.label>金耳環</I_EMGolEar.label>
+  <I_EMGolEar.description>一個粗糙但美麗的金耳環。</I_EMGolEar.description>
+
+
+  <!-- nose ring -->
+
+  <I_EMSilNose.label>銀鼻環</I_EMSilNose.label>
+  <I_EMSilNose.description>一個粗製的銀鼻環，外觀美觀且具有抗菌特性。</I_EMSilNose.description>
+
+  <I_EMGolNose.label>金鼻環</I_EMGolNose.label>
+  <I_EMGolNose.description>一個粗製但美麗的金鼻環。</I_EMGolNose.description>
+
+
+</LanguageData>

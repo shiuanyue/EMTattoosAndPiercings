@@ -1,0 +1,37 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- earrings -->
+
+  <MakeEMSilEar.label>製作銀耳環</MakeEMSilEar.label>
+  <MakeEMSilEar.description>製作一個用於穿戴的粗糙銀質耳環。</MakeEMSilEar.description>
+  <MakeEMSilEar.jobString>製作耳環</MakeEMSilEar.jobString>
+
+  <MakeEMGolEar.label>製作金耳環</MakeEMGolEar.label>
+  <MakeEMGolEar.description>製作一個用於穿戴的粗糙金質耳環。</MakeEMGolEar.description>
+  <MakeEMGolEar.jobString>製作耳環</MakeEMGolEar.jobString>
+
+
+  <!-- nose rings -->
+
+  <MakeEMSilNose.label>製作銀鼻環</MakeEMSilNose.label>
+  <MakeEMSilNose.description>製作一個用於穿戴的粗糙銀質鼻環。</MakeEMSilNose.description>
+  <MakeEMSilNose.jobString>製作鼻環</MakeEMSilNose.jobString>
+
+  <MakeEMGolNose.label>製作金鼻環</MakeEMGolNose.label>
+  <MakeEMGolNose.description>製作一個用於穿戴的粗糙金質鼻環。</MakeEMGolNose.description>
+  <MakeEMGolNose.jobString>製作鼻環</MakeEMGolNose.jobString>
+
+
+  <!-- belts -->
+
+  <MakeEMFabBelt.label>製作簡單腰帶</MakeEMFabBelt.label>
+  <MakeEMFabBelt.description>製作一條簡單的腰帶。</MakeEMFabBelt.description>
+  <MakeEMFabBelt.jobString>編織簡單腰帶</MakeEMFabBelt.jobString>
+
+  <MakeEMSilBelt.label>製作銀飾腰帶</MakeEMSilBelt.label>
+  <MakeEMSilBelt.description>製作一條銀飾腰帶。</MakeEMSilBelt.description>
+  <MakeEMSilBelt.jobString>編織銀飾腰帶</MakeEMSilBelt.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- earrings -->
+
+  <InstallEMSilEar.label>穿耳洞(銀)</InstallEMSilEar.label>
+  <InstallEMSilEar.description>給耳朵打洞戴上銀耳環</InstallEMSilEar.description>
+  <InstallEMSilEar.jobString>打洞中</InstallEMSilEar.jobString>
+
+  <InstallEMGolEar.label>穿耳洞(金)</InstallEMGolEar.label>
+  <InstallEMGolEar.description>給耳朵打洞戴上金耳環</InstallEMGolEar.description>
+  <InstallEMGolEar.jobString>打洞中</InstallEMGolEar.jobString>
+
+
+  <!-- nose rings -->
+
+  <InstallEMSilNose.label>穿鼻環(銀)</InstallEMSilNose.label>
+  <InstallEMSilNose.description>給鼻子打洞戴上銀鼻環</InstallEMSilNose.description>
+  <InstallEMSilNose.jobString>打洞中</InstallEMSilNose.jobString>
+
+  <InstallEMGolNose.label>穿鼻環(金)</InstallEMGolNose.label>
+  <InstallEMGolNose.description>給鼻子打洞戴上金鼻環</InstallEMGolNose.description>
+  <InstallEMGolNose.jobString>打洞中</InstallEMGolNose.jobString>
+
+
+</LanguageData>

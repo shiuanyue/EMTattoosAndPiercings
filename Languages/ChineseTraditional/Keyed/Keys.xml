@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <EMTP_CurrentModVersion>已安裝的模組版本：{0}</EMTP_CurrentModVersion>
+  <EMTP_CountAsBad>將紋身視為不良</EMTP_CountAsBad>
+  <EMTP_CountAsBad_Tooltip>啟用後，痊癒機械液和類似物品可以移除它們</EMTP_CountAsBad_Tooltip>
+
+</LanguageData>

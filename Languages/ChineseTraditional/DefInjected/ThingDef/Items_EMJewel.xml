@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- belts -->
+
+  <I_EMClothBelt.label>腰帶</I_EMClothBelt.label>
+  <I_EMClothBelt.description>一條簡單的繩索腰帶。</I_EMClothBelt.description>
+
+  <I_EMSilverBelt.label>銀飾腰帶</I_EMSilverBelt.label>
+  <I_EMSilverBelt.description>一條銀釘腰帶。</I_EMSilverBelt.description>
+
+
+  <!-- necklaces -->
+
+  <I_EMSilverNeck.label>銀項鍊</I_EMSilverNeck.label>
+  <I_EMSilverNeck.description>一條編織的銀項鍊，具有抗菌特性。</I_EMSilverNeck.description>
+
+  <I_EMGoldNeck.label>金項鍊</I_EMGoldNeck.label>
+  <I_EMGoldNeck.description>一條編織的金項鍊，是任何人衣櫃中令人印象深刻的配飾。</I_EMGoldNeck.description>
+
+
+</LanguageData>

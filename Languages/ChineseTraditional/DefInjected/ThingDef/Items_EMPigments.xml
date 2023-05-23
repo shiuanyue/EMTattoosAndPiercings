@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- base pigments -->
+
+  <EMPigmentYellow.label>刺青顏料（花粉）</EMPigmentYellow.label>
+  <EMPigmentYellow.description>一種由迷幻葉製成的特殊顏料，注入了長期在土壤休眠的機械微粒。這是一種明亮絢麗的黃色，讓人聯想到花朵。</EMPigmentYellow.description>
+
+  <EMPigmentGreen.label>刺青顏料（森林）</EMPigmentGreen.label>
+  <EMPigmentGreen.description>一種由草藥製成的特殊顏料，注入了長期在土壤休眠的機械微粒。它是一種深邃而誘人的綠色，如同一片僻靜的樹林。</EMPigmentGreen.description>
+
+  <EMPigmentRed.label>刺青顏料（血紅）</EMPigmentRed.label>
+  <EMPigmentRed.description>一種由魔鬼菇製成的特殊顏料，注入了長期在土壤休眠的機械微粒。它鮮豔而明亮，宛如新鮮傾瀉的鮮血。</EMPigmentRed.description>
+
+  <EMPigmentBlue.label>刺青顏料（天空）</EMPigmentBlue.label>
+  <EMPigmentBlue.description>一種由菸葉製成的特殊顏料，注入了長期在土壤休眠的機械微粒。它帶有平靜的藍色，如同夏日的晴空。</EMPigmentBlue.description>
+
+
+  <!-- pigments 2: the pigmentening -->
+
+  <EMPigmentTurquoise.label>刺青顏料（海洋）</EMPigmentTurquoise.label>
+  <EMPigmentTurquoise.description>一種由森林和天空顏料混合的特殊顏料，注入了長期在土壤休眠的機械微粒。像狂風暴雨的海洋一樣令人印象深刻。</EMPigmentTurquoise.description>
+
+  <EMPigmentLime.label>刺青顏料（草地）</EMPigmentLime.label>
+  <EMPigmentLime.description>一種由花粉和森林顏料混合的特殊顏料，注入了長期在土壤休眠的機械微粒。一種充滿活力的綠色，猶如一片草地。</EMPigmentLime.description>
+
+  <EMPigmentOrange.label>刺青顏料（火焰）</EMPigmentOrange.label>
+  <EMPigmentOrange.description>一種由血液和花粉顏料混合的特殊顏料，注入了長期在土壤休眠的機械微粒。深沉而強大，如同太陽。</EMPigmentOrange.description>
+
+  <EMPigmentPurple.label>刺青顏料（皇家）</EMPigmentPurple.label>
+  <EMPigmentPurple.description>一種由天空和血液顏料混合的特殊顏料，注入了長期在土壤休眠的機械微粒。極其令人印象深刻和威嚴的紫色。</EMPigmentPurple.description>
+
+
+</LanguageData>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PigmentPit.label>顏料坑</PigmentPit.label>
+  <PigmentPit.description>一個特殊區域，將休眠的機械微粒與植物結合製造顏料。</PigmentPit.description>
+  <PigmentPit_Blueprint.label>顏料坑 (藍圖)</PigmentPit_Blueprint.label>
+  <PigmentPit_Frame.label>顏料坑(框架)</PigmentPit_Frame.label>
+  <PigmentPit_Frame.description>一個特殊區域，將休眠的機械微粒與植物結合製造顏料。</PigmentPit_Frame.description>
+
+
+</LanguageData>

@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <ResearchEMBasic.label>基礎紋身與顏料</ResearchEMBasic.label>
+  <ResearchEMBasic.description>解鎖顏料坑以製作基礎顏料和紋身設計，可用於加強能力。基礎紋身涵蓋手部和腳部。</ResearchEMBasic.description>
+
+  <ResearchEMAdv.label>高級紋身</ResearchEMAdv.label>
+  <ResearchEMAdv.description>解鎖更多紋身設計，可用於增強能力。高級紋身涵蓋腿部和臂部。</ResearchEMAdv.description>
+
+  <ResearchEMComp.label>綜合紋身</ResearchEMComp.label>
+  <ResearchEMComp.description>解鎖更多紋身設計，可用於強化能力，綜合紋身覆蓋背部或胸部。</ResearchEMComp.description>
+
+  <ResearchEMPigments.label>顏料混合</ResearchEMPigments.label>
+  <ResearchEMPigments.description>解鎖四種墨水和紋身設計。</ResearchEMPigments.description>
+
+
+</LanguageData>
